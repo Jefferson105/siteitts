@@ -1,0 +1,60 @@
+@import "lib.scss";
+
+.nossaHistoria{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    &-hist {
+        width: 58%;
+        margin-right: 2rem;
+        &-title {
+            font-family: "Lobster";
+            color: $red-text;
+            font-size: 2.5rem;
+        }
+        &-title1 {
+            text-transform: uppercase;
+            font-size: 1rem;
+            margin-top: .2rem;
+            margin-bottom: 1rem;
+        }
+        &-txt {
+            //font-size: .8rem;
+            margin-top: .3rem;
+        }
+    }
+    &-img{
+        width: 40%;
+        img{
+            height: 25rem;
+        }
+    }
+}
+
+.qualidades {
+    background-color: #D2A95A;
+    @extend %fill-width;
+    &-container {
+        display: flex;
+        padding: 4rem 0;
+        &-item {
+            width: 33%;
+            border-left: medium solid #FFF;
+            padding: .5rem .5rem .5rem 1rem;
+            &-title {
+                color: $red-text;
+                font-size: 1.5rem;
+            }
+            &-txt {
+                color: #FFF;
+                margin-top: .5rem;
+                font-size: .8rem;
+            }
+            &-list {
+                color: #FFF;
+                list-style: none;
+                font-size: .8rem;
+            }
+        }
+    }
+}

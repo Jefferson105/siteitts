@@ -1,9 +1,11 @@
-$body-width: 1170px;
+@import "lib.scss";
 
 @font-face {
     font-family: "Lora-Regular";
     src: url("../fonts/Lora-Regular.ttf"); 
 }
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 
 * {
     margin: 0;
@@ -15,17 +17,19 @@ body {
     max-width: $body-width;
     margin: 0 auto;
     overflow-x: hidden;
+    font-size: 16px;
+    line-height: 25px;
 }
 
-%fill-width {
-    width: 100vw;
-    transform: translateX(calc(((100vw - 1170px) / 2) * -1));
-}
-
-%absolute-initial {
+h1 {
     position: absolute;
-    top: 0;
+    top: 240px;
     left: 0;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    font-size: 2rem;
+    text-transform: uppercase;
 }
 
 .container {
@@ -62,26 +66,35 @@ body {
         width: 100%;
         z-index: 2;
         padding: 1rem 0;
-        background-color: rgba(255,255,255,.3);
+        background-color: rgba(255,255,255,.7);
+        &.home {
+            background-color: rgba(255,255,255,.5);
+        }
         &-list {
             list-style: none;
             display: flex;
             align-items: center;
             justify-content: center;
+            position: relative;
+            //right: 2rem;
             &-item {
-                font-size: .7rem;
-                width: 7rem;
+                //width: 10rem;
                 font-weight: bold;
+                margin-right: 2rem;
                 text-transform: uppercase;
                 text-align: center;
                 &.logo {
                     img {
-                        height: 4rem;
+                        height: 8rem;
                     }
                 }
                 a {
-                    color: #000;
+                    font-size: .8rem;
+                    color: #222;
                     text-decoration: none;    
+                    &:hover {
+                        color: #000;
+                    }
                 }
             }
         }
@@ -191,18 +204,20 @@ body {
             color: #B51924;
         }
         &-txt {
-            font-size: .8rem;
+            //font-size: .8rem;
         }
         &-button {
             color: #FFF;
             background-color: #C69C6D;
             border: none;
             width: 10rem;
-            height: 2rem;
             text-transform: uppercase;
             font-size: .8rem;
             margin-top: 1rem;
+            text-align: center;
             font-family: "Lora-Regular", serif;
+            display: block;
+            text-decoration: none;
         }
     }
     &-group {
@@ -227,16 +242,6 @@ body {
     }
 }
 
-%star-bg {
-    content: "";
-    position: absolute;
-    background-image: url("../img/star.svg");
-    background-size: 1rem 1rem;
-    width: 1rem;
-    height: 1rem;
-    top: .4rem;
-}
-
 .produtos {
     background-image: url("../img/fundo_produtos.png");
     @extend %fill-width;
@@ -246,16 +251,8 @@ body {
         text-align: center;
         margin-bottom: 3rem;
         color: #FFF;
-        position: relative;
         text-transform: uppercase;
-        &::before {
-            @extend %star-bg;
-            transform: translateX(-3rem);
-        }
-        &::after {
-            @extend %star-bg;
-            transform: translateX(2rem);
-        }
+        @include star-bg(1rem, .4rem);
     }
     &-slide {
         &-button {
@@ -312,7 +309,7 @@ body {
         font-size: 1rem;
         width: 60%;
         margin: 2rem auto .5rem auto;
-        font-size: .9rem;
+        //font-size: .9rem;
     }
     &-cards {
         display: flex;
@@ -329,7 +326,7 @@ body {
             width: 220px;
             position: relative;
             bottom: 1.5rem;
-            height: 9rem;
+            height: 11rem;
             left: 1.1rem;
             padding: 1rem;
             background-color: white;
@@ -376,6 +373,7 @@ body {
         display: flex;
         padding: 2rem;
         justify-content: center;
+        margin-bottom: 2rem;
     }
     &-title {
         margin-bottom: .5rem;

@@ -1,24 +1,98 @@
+@import "lib.scss";
 
-$body-width: 1170px;
-
-@font-face {
-    font-family: "Lora-Regular";
-    src: url("../fonts/Lora-Regular.ttf"); 
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.containerfigure{
-    width: 50px;
-    &-imgcafe{
-        
+.produtos {
+    &-h1 {
+        @include star-bg(1.3rem, 0);
     }
-}
-.containerfigure2{
-    &-imgcafe{
-        
+    &-txt {
+        margin-top: 3rem;
+        text-align: center;
+        font-size: .9rem;
+    }
+    &-list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        &-item {
+            width: 33%;
+            margin: 1rem auto;
+            display: flex;
+            justify-content: center;
+            &:last-child {
+                align-self: flex-end;
+            }
+            &-img {
+                height: 15rem;
+            }
+        }
+    }
+    &-breadcrumb {
+        margin: 2rem auto;
+        text-align: center;
+        color: #777;
+        text-transform: uppercase;
+        font-weight: lighter;
+    }
+    &-individual {
+        display: flex;
+        &-img {
+            width: 30%;
+            text-align: center;
+            &-prod {
+                height: 25rem;
+            }
+            &-info {
+                width: 70%;
+            }
+            &-txt {
+                font-weight: bold;
+                color: #FFFF0F;
+                position: relative;
+                bottom: 14%;
+            }
+        }
+        &-info {
+            width: 70%;
+            &-container {
+                width: 80%;
+            }
+            &-nome {
+                color: #FFF;
+                background-color: #930708;
+                text-align: center;
+                text-transform: uppercase;
+                padding: 1rem 0;
+            }
+            &-txt {
+                color: #FFF;
+                background-color: #C21217;
+                padding: .5rem 1rem;
+            }
+            &-table {
+                background-color: #F0F0F0;
+                padding: .5rem 1rem;
+                font-size: .8rem;
+                caption {
+                    background-color: #F0F0F0;
+                }
+                th {
+                    text-align: left;
+                }
+                td {
+                    width: 33%;
+                }
+            }
+        }   
+        &-ingrediente {
+            background-color: #DBDBDB;
+            text-align: center;
+            padding: 1rem;
+            &-title {
+                text-transform: uppercase;
+            }
+            &-txt {
+                font-size: .9rem;
+            }
+        }
     }
 }

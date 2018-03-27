@@ -56,9 +56,10 @@ gulp.task("sass:watch", () => {
 
 gulp.task("serve", () => {
     sync.init({
-        server: {
-            baseDir: "./"
-        }
+        /*server: {
+            baseDir: "./"  
+        }*/
+        proxy: "localhost:8080/wordpress/wp-content/themes/inttenso/"
     });
 
     gulp.watch(glob.sass, ["sass:compile"]);

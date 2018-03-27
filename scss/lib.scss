@@ -1,0 +1,40 @@
+$red-text: #D2161C;
+
+%fill-width {
+    width: 100vw;
+    transform: translateX(calc(((100vw - 1170px) / 2) * -1));
+}
+
+%absolute-initial {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+%center-absolute {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+$body-width: 1170px;
+
+@mixin star($size, $top) {
+    content: "";
+    position: absolute;
+    background-image: url("../img/star.svg");
+    background-size: $size $size;
+    width: $size;
+    height: $size;
+    top: $top;
+}
+
+@mixin star-bg($size, $top){
+    &::before {
+        @include star($size, $top);
+        transform: translateX(-3rem);
+    }
+    &::after {
+        @include star($size, $top);
+        transform: translateX(2rem);
+    }
+}

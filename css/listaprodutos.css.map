@@ -1,0 +1,1 @@
+{"version":3,"mappings":"AACI,iBAAG,CACC,MAAM,CAAE,IAAI","sources":["listaprodutos.scss"],"names":[],"file":"listaprodutos.css","sourcesContent":[".img_produtos{\n    img{\n        height: 3rem;\n    }\n}"]}

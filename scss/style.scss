@@ -41,20 +41,30 @@ h1 {
     display: flex;
     justify-content: center;
     align-content: center;
+    position: relative;
     &-button {
+        position: absolute;
         background-color: transparent;
         border: none;
         width: 5%;
         cursor: pointer;
+        top: 0;
+        height: 100%;
         img {
             height: 2rem;
+        }
+        &:first-child {
+            left: -10%;
+        }
+        &:last-child {
+           right: -10%; 
         }
     }
     &-list {
         list-style: none;
-        width: 90%;
+        width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
     }
 }
 
@@ -89,7 +99,6 @@ h1 {
                     }
                 }
                 a {
-                    font-size: .8rem;
                     color: #222;
                     text-decoration: none;    
                     &:hover {
@@ -109,7 +118,9 @@ h1 {
         &-list {
             position: relative;
             top: 3rem;
+            overflow: hidden;
             &-item {
+                transition: all .5s ease-in;  
                 &-content {
                     position: relative;
                 }
@@ -143,6 +154,7 @@ h1 {
 .main-slide {
     display: flex;
     justify-content: center;
+    width: 1170px;
     &-img {
         height: 320px;
     }
@@ -226,7 +238,7 @@ h1 {
         justify-content: center;
         align-items: center;
         &-img {
-            height: 15rem;
+            height: 20rem;
             position: relative;
             &-1 {
                 left: .5rem;
@@ -313,7 +325,7 @@ h1 {
     }
     &-cards {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
 }
 .cards{
@@ -321,6 +333,7 @@ h1 {
     display: inline-block;
     margin-left: .5rem;
     position: relative;
+    text-decoration: none;
     &-conteudo{
         &-text{
             width: 220px;
@@ -372,7 +385,7 @@ h1 {
     &-main {
         display: flex;
         padding: 2rem;
-        justify-content: center;
+        justify-content: space-between;
         margin-bottom: 2rem;
     }
     &-title {

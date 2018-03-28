@@ -12,10 +12,9 @@
     <header class="header">
         <nav class="header-menu">
             <ul class="header-menu-list">
-                <li class="header-menu-list-item"><a href="index.php">Home</a></li>
                 <li class="header-menu-list-item"><a href="empresa.php">Empresa</a></li>
                 <li class="header-menu-list-item"><a href="produtos.php">Produtos</a></li>
-                <li class="header-menu-list-item logo"><img src="img/logo.png" /></li>
+                <li class="header-menu-list-item logo"><a href="index.php"><img src="img/logo.png" /></a></li>
                 <li class="header-menu-list-item"><a href="receitas.php">Receitas</a></li>
                 <li class="header-menu-list-item"><a href="contato.php">Fale conosco</a></li>
             </ul>

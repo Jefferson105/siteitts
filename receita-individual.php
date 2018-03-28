@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Inttenso Foods</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/produtos.css" />
+    <link rel="stylesheet" href="css/receitas.css" />
 </head>
 <body>
     <header class="header">
@@ -22,48 +22,43 @@
         <figure class="header-banner">
             <img src="img/header_other.png" />
         </figure>
-        <h1 class="produtos-h1">Produtos</h1>
+        <h1 style="display: none">Receitas</h1>
+        <img class="receitas-imgHeader" src="img/receita_branco.png" />
     </header>
     <main>
-        <p class="produtos-txt">O Inttenso Foods se preocupa em produzir os melhores produtos para você e sua família desfrutarem de sabores indescritíveis. <br/>Nas receitas doces ou salgadas, nosso mix atende a todas as necessidades. <br/><b>Conheça nossos produtos!</b> </p>
-        <ul class="produtos-list">
-            <li class="produtos-list-item">
-                <figure class="produtos-list-item-container">
-                    <img src="img/ketchup_370ml.png" alt="" class="produtos-list-item-img">
-                    <figcaption class="produtos-list-item-caption">Condimentos</figcaption>
-                </figure>             
-            </li>
-            <li class="produtos-list-item">
-                <figure class="produtos-list-item-container">
-                    <img src="img/Molho barbecue 270g.png" alt="" class="produtos-list-item-img">
-                    <figcaption class="produtos-list-item-caption">Temperos</figcaption>
-                </figure>
-            </li>
-            <li class="produtos-list-item">
-                <figure class="produtos-list-item-container">
-                    <img src="img/MOLHO DE ALHO 150.png" alt="" class="produtos-list-item-img">
-                    <figcaption class="produtos-list-item-caption">Pimentas</figcaption>
-                </figure>
-            </li>
-            <li class="produtos-list-item">
-                <figure class="produtos-list-item-container">
-                    <img src="img/Molho de alho roxo 900ml.png" alt="" class="produtos-list-item-img">
-                    <figcaption class="produtos-list-item-caption">Molhos</figcaption>
-                </figure>
-            </li>
-            <li class="produtos-list-item">
-                <figure class="produtos-list-item-container">
-                    <img src="img/MOLHO DE  ALHO ROXO APIMNETADO 150.png" alt="" class="produtos-list-item-img">
-                    <figcaption class="produtos-list-item-caption">Condimentos especiais</figcaption>
-                </figure>
-            </li>
-            <li class="produtos-list-item">
-                <figure class="produtos-list-item-container">
-                    <img src="img/Molho de oimenta suave 900ml.png" alt="" class="produtos-list-item-img">
-                    <figcaption class="produtos-list-item-caption">Encartelados</figcaption>
-                </figure>
-            </li>
-        </ul>
+        <figure class="receitas-individual-foto">
+            <img src="img/receita-main.jpg" />
+        </figure>
+        <section class="receitas-individual-sobre">
+            <h2 class="receitas-individual-sobre-title">Tomate recheado com muçarela, parmesão e orégano</h2>
+            <div class="receitas-individual-sobre-container">
+                <div class="receitas-individual-sobre-container-info receitas-individual-sobre-container-info-ingredientes">
+                    <h3 class="receitas-individual-sobre-container-info-title">Ingredientes</h3>
+                    <p class="receitas-individual-sobre-container-info-txt">
+                        <ul>
+                            <li>6 tomates (grandes)</li>
+                            <li>Sal</li> 
+                            <li>Pimenta do reino Inttenso Foods (a gosto)</li>
+                            <li>300g de muçarela (picada)</li>
+                            <li>1/2 xícara de queijo parmesão ralado (chá</li>)
+                            <li>Orégano Intenso Foods (para povilhar)</li>
+                            <li>2 colheres de azeite (sopa)</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="receitas-individual-sobre-container-info receitas-individual-sobre-container-modo">
+                    <h3 class="receitas-individual-sobre-container-info-title">Modo de fazer</h3>
+                    <ol>
+                        <li>Corte a superfície dos tomates, formando uma tampa, e retire as sementes;</li>
+                        <li>Tempere-os com sal e pimenta do reino Inttenso Foods e recheie com muçarela;</li>
+                        <li>Polvilhe queijo ralado e orégano Intteso Foods;</li>
+                        <li>Regue com azeite de oliva;</li>
+                        <li>Finalize em forno pré-aquecido em temperatura mpedia (180 C) por cerca de 15 minutos ou até derreter o queijo;</li>
+                        <li>Sirva em seguida.</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="container footer-main">

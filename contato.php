@@ -10,12 +10,11 @@
 </head>
 <body>
     <header class="header">
-        <nav class="header-menu">
+        <nav class="header-menu home">
             <ul class="header-menu-list">
-               <li class="header-menu-list-item"><a href="index.php">Home</a></li>
                 <li class="header-menu-list-item"><a href="empresa.php">Empresa</a></li>
                 <li class="header-menu-list-item"><a href="produtos.php">Produtos</a></li>
-                <li class="header-menu-list-item logo"><img src="img/logo.png" /></li>
+                <li class="header-menu-list-item logo"><a href="index.php"><img src="img/logo.png" /></a></li>
                 <li class="header-menu-list-item"><a href="receitas.php">Receitas</a></li>
                 <li class="header-menu-list-item"><a href="contato.php">Fale conosco</a></li>
             </ul>
@@ -26,7 +25,7 @@
         <h1>Fale Conosco</h1>
     </header>
     <main class="contato">
-        <p class="contato-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu ligula sit amet erat faucibus convallis. Cras nec dapibus felis. Cras non nisl justo. Phasellus elit lorem, condimentum id mi in, consectetur molestie eros. Donec eget placerat nibh, eget posuere est. </p>
+        <p class="contato-txt">Entre em contato com a Inttenso Foods e tire as suas dúvidas! <br/><b>Preencha o formulário abaixo ou ligue para (37) 3421 – 6600. </b></p>
         <form class="contato-form">
             <input type="text" class="contato-form-input contato-form-input-100" placeholder="NOME" />
             <input type="text" class="contato-form-input contato-form-input-50" placeholder="EMAIL" />
@@ -64,7 +63,6 @@
             <div class="footer-social">
                 <h4 class="footer-title">Rede Social</h4>
                 <img class="footer-social-imgFace" src="img/facebook-logo.svg" />
-                <img src="img/instagram-logo.svg" />
             </div>
         </div>
         <p class="footer-copy">2018 Copyright todos os direitos reservados. Desenvolvido por Unick360</p>

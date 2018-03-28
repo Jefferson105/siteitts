@@ -13,16 +13,23 @@
         list-style: none;
         display: flex;
         flex-wrap: wrap;
+        margin: 2rem auto;
         &-item {
             width: 33%;
             margin: 1rem auto;
-            display: flex;
-            justify-content: center;
             &:last-child {
                 align-self: flex-end;
             }
+            &-container {
+                width: 100%;
+                text-align: center;
+            }
             &-img {
                 height: 15rem;
+            }
+            &-caption {
+                text-transform: uppercase;
+                font-weight: bold;
             }
         }
     }
@@ -35,8 +42,8 @@
     }
     &-individual {
         display: flex;
+        justify-content: center;
         &-img {
-            width: 30%;
             text-align: center;
             &-prod {
                 height: 25rem;
@@ -52,9 +59,8 @@
             }
         }
         &-info {
-            width: 70%;
             &-container {
-                width: 80%;
+                width: 600px;
             }
             &-nome {
                 color: #FFF;
@@ -92,6 +98,14 @@
             }
             &-txt {
                 font-size: .9rem;
+            }
+        }
+        &-modo {
+            color: #868686;
+            margin: 1rem 0;
+            i {
+                text-transform: uppercase;
+                font-weight: bold;
             }
         }
     }

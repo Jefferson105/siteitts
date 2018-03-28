@@ -12,10 +12,9 @@
     <header class="header">
         <nav class="header-menu">
             <ul class="header-menu-list">
-                <li class="header-menu-list-item"><a href="index.php">Home</a></li>
                 <li class="header-menu-list-item"><a href="empresa.php">Empresa</a></li>
                 <li class="header-menu-list-item"><a href="produtos.php">Produtos</a></li>
-                <li class="header-menu-list-item logo"><img src="img/logo.png" /></li>
+                <li class="header-menu-list-item logo"><a href="index.php"><img src="img/logo.png" /></a></li>
                 <li class="header-menu-list-item"><a href="receitas.php">Receitas</a></li>
                 <li class="header-menu-list-item"><a href="contato.php">Fale conosco</a></li>
             </ul>
@@ -29,22 +28,22 @@
     <section class="receitas">
         <p class="receitas-txt">Sabores surpreendentes, receitas que inspiram! Conheça nossas receitas e descubra novas formas de encantar.</p>
         <section class="receitas-cards">
-            <section class="cards">
+            <a href="receita-individual.php" class="cards">
                 <div class="cards-conteudo">
-                <figcaption class="cards-conteudo-pratos">
-                    <img src="img/macarrao.jpg" class="cards-conteudo-pratos-comidas">
-                </figcaption>
-                <div class="cards-conteudo-text">
-                    <h3 class="cards-conteudo-text-title">Tomate recheado com muçarela, parmesão e orégano</h3>
-                    <p class="cards-conteudo-text-description">Uma entrada simples, rápida e deliciosa para ser servida durante um momento especial!</p>
+                    <figcaption class="cards-conteudo-pratos">
+                        <img src="img/macarrao.jpg" class="cards-conteudo-pratos-comidas">
+                    </figcaption>
+                    <div class="cards-conteudo-text">
+                        <h3 class="cards-conteudo-text-title">Tomate recheado com muçarela, parmesão e orégano</h3>
+                        <p class="cards-conteudo-text-description">Uma entrada simples, rápida e deliciosa para ser servida durante um momento especial!</p>
+                    </div>
+                    <figcaption class="cards-conteudo-icons">
+                        <img src="img/face.svg" class="cards-conteudo-icons-social">
+                        <img src="img/instagram.svg" class="cards-conteudo-icons-social">
+                    </figcaption>
                 </div>
-                <figcaption class="cards-conteudo-icons">
-                    <img src="img/face.svg" class="cards-conteudo-icons-social">
-                    <img src="img/instagram.svg" class="cards-conteudo-icons-social">
-                </figcaption>
-                </div>
-            </section>
-            <section class="cards">
+            </a>
+            <a href="receita-individual.php" class="cards">
                 <div class="cards-conteudo">
                 <figcaption class="cards-conteudo-pratos">
                     <img src="img/carne.jpg" class="cards-conteudo-pratos-comidas">
@@ -59,8 +58,8 @@
                     <img src="img/instagram.svg" class="cards-conteudo-icons-social">
                 </figcaption>
                 </div>
-            </section>
-            <section class="cards">
+            </a>
+            <a href="receita-individual.php" class="cards">
                 <div class="cards-conteudo">
                     <figcaption class="cards-conteudo-pratos">
                         <img src="img/salada.jpg" class="cards-conteudo-pratos-comidas">
@@ -75,9 +74,9 @@
                         <img src="img/instagram.svg" class="cards-conteudo-icons-social">
                     </figcaption>
                 </div>
-            </section>
-            <section class="cards">
-                    <div class="cards-conteudo">
+            </a>
+            <a href="receita-individual.php" class="cards">
+                <div class="cards-conteudo">
                     <figcaption class="cards-conteudo-pratos">
                         <img src="img/macarrao.jpg" class="cards-conteudo-pratos-comidas">
                     </figcaption>
@@ -90,10 +89,10 @@
                         <img src="img/face.svg" class="cards-conteudo-icons-social">
                         <img src="img/instagram.svg" class="cards-conteudo-icons-social">
                     </figcaption>
-                    </div>
-                </section>
-                <section class="cards">
-                    <div class="cards-conteudo">
+                </div>
+            </a>
+            <a href="receita-individual.php" class="cards">
+                <div class="cards-conteudo">
                     <figcaption class="cards-conteudo-pratos">
                         <img src="img/carne.jpg" class="cards-conteudo-pratos-comidas">
                     </figcaption>
@@ -106,24 +105,24 @@
                         <img src="img/face.svg" class="cards-conteudo-icons-social">
                         <img src="img/instagram.svg" class="cards-conteudo-icons-social">
                     </figcaption>
+                </div>
+            </a>
+            <a href="receita-individual.php" class="cards">
+                <div class="cards-conteudo">
+                    <figcaption class="cards-conteudo-pratos">
+                        <img src="img/salada.jpg" class="cards-conteudo-pratos-comidas">
+                    </figcaption>
+                    <div class="cards-conteudo-text">
+                        <h3 class="cards-conteudo-text-title">LOREM IPSUM DOLOR</h3>
+                        <p class="cards-conteudo-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit consectetur adipiscing elit consectetur adipiscing elit.  
+                        </p>
                     </div>
-                </section>
-                <section class="cards">
-                    <div class="cards-conteudo">
-                        <figcaption class="cards-conteudo-pratos">
-                            <img src="img/salada.jpg" class="cards-conteudo-pratos-comidas">
-                        </figcaption>
-                        <div class="cards-conteudo-text">
-                            <h3 class="cards-conteudo-text-title">LOREM IPSUM DOLOR</h3>
-                            <p class="cards-conteudo-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit consectetur adipiscing elit consectetur adipiscing elit.  
-                            </p>
-                        </div>
-                        <figcaption class="cards-conteudo-icons">
-                            <img src="img/face.svg" class="cards-conteudo-icons-social">
-                            <img src="img/instagram.svg" class="cards-conteudo-icons-social">
-                        </figcaption>
-                    </div>
-                </section>
+                    <figcaption class="cards-conteudo-icons">
+                        <img src="img/face.svg" class="cards-conteudo-icons-social">
+                        <img src="img/instagram.svg" class="cards-conteudo-icons-social">
+                    </figcaption>
+                </div>
+            </a>
         </section>
         <ul class="receitas-paginator">
             <li class="receitas-paginator-item active">1</li>

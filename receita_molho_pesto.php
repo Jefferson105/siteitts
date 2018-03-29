@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Inttenso - Empresa</title>
+    <title>Inttenso Foods</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/produtos.css" />
+    <link rel="stylesheet" href="css/receitas.css" />
 </head>
 <body>
     <header class="header">
@@ -22,18 +22,41 @@
         <figure class="header-banner">
             <img src="img/header_other.png" />
         </figure>
-        <h1>Molhos</h1>
+        <h1 style="display: none">Receitas</h1>
+        <img class="receitas-imgHeader" src="img/receita_branco.png" />
     </header>
-    <ul class="produtos-list">
-       <li class="produtos-list-item"><img class="produtos-list-item-img" src="img/Molho de alho roxo 900ml.png" /></li>
-       <li class="produtos-list-item"><img class="produtos-list-item-img" src="img/MOLHO DE  ALHO ROXO APIMNETADO 150.png" /></li>
-       <li class="produtos-list-item"><img class="produtos-list-item-img" src="img/Molho de pimenta EXTRA-forte 900ml.png" /></li>
-       <li class="produtos-list-item"><img class="produtos-list-item-img" src="img/Molho ingles 900ml.png" /></li>
-       <li class="produtos-list-item"><img class="produtos-list-item-img" src="img/MOLHO DE PIMENTA SUAVE 150.png" /></li>
-       <li class="produtos-list-item"><img class="produtos-list-item-img" src="img/MOLHO SHOYO 150.png" /></li>
-       <li class="produtos-list-item"><img class="produtos-list-item-img" src="img/MOLHO DE PIMENTA FORTE 180.png" /></li>
-       <li class="produtos-list-item"><img class="produtos-list-item-img" src="img/Molho de oimenta suave 900ml.png" /></li>
-    </ul>
+    <main>
+        <figure class="receitas-individual-foto">
+            <img src="img/receitas/molho-pesto-g.jpg" />
+        </figure>
+        <section class="receitas-individual-sobre">
+            <h2 class="receitas-individual-sobre-title">Molho Pesto</h2>
+            <div class="receitas-individual-sobre-container">
+                <div class="receitas-individual-sobre-container-info receitas-individual-sobre-container-info-ingredientes">
+                    <h3 class="receitas-individual-sobre-container-info-title">Ingredientes</h3>
+                    <p class="receitas-individual-sobre-container-info-txt">
+                        <ul>
+                            <li>1 maço de manjericão</li>
+                            <li>1 dente de alho</li>
+                            <li>5 colheres de azeite</li>
+                            <li>Pimenta do Reino Inttenso Foods a gosto</li>
+                            <li>Sal a gosto</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="receitas-individual-sobre-container-info receitas-individual-sobre-container-modo">
+                    <h3 class="receitas-individual-sobre-container-info-title">Modo de fazer</h3>
+                    <ol>
+                        <li>Em um processador, bata as folhas de 1/4 de maço de manjericão, 1/4 de dente de alho, sal e pimenta do reino Inttenso Foods com 1 colher de sopa de azeite;</li>
+                        <li>Acrescente mais 4 colheres de sopa de azeite até triturar as folhas;</li>
+                        <li> Se preciso, acerte o sal e a pimenta do reino Inttenso Foods e termine de bater;</li>
+                        <li>Não bata em excesso pois isso estimula a oxidação das folhas, o que deixa o molho pesto escuro;</li>
+                        <li>Sirva com saladas, torradas e massas.</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer class="footer">
         <div class="container footer-main">
             <figure class="footer-logo">

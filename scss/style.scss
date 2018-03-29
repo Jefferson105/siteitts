@@ -111,7 +111,7 @@ h1 {
     &-slide {
         position: absolute;
         z-index: 2;
-        top: 7rem;
+        top: 200px;
         width: 1170px;
         left: 50%;
         transform: translateX(-50%);
@@ -130,7 +130,7 @@ h1 {
     &-banner {
         position: relative;
         width: 100%;
-        height: 400px;
+        height: 500px;
         overflow: hidden;
         &-leaves {
             height: 25rem;
@@ -170,10 +170,11 @@ h1 {
         &-1 {
             display: block;
             width: 550px; 
-            padding: 2rem 0;
+            padding-top: 40px;
             background-color: rgba(0,0,0,.6);
             font-size: 1.8rem;
-            box-sizing: content-box;
+            height: 115px;
+            box-sizing: border-box;
             position: relative;
             &::before {
                 content: "";
@@ -329,22 +330,22 @@ h1 {
     }
 }
 .cards{
-    margin-top: 1rem;
-    display: inline-block;
-    margin-left: .5rem;
     position: relative;
-    text-decoration: none;
+    display: flex;
+    width: 33%;
+    justify-content: center;
+    flex-wrap: wrap;
     &-conteudo{
+        display: block;
+        text-decoration: none;
         &-text{
             width: 220px;
             position: relative;
             bottom: 1.5rem;
             height: 11rem;
-            left: 1.1rem;
             padding: 1rem;
+            margin: 0 auto;
             background-color: white;
-            -webkit-box-shadow: -1px 0px 13px 0px rgba(163,163,163,0.95);
-            -moz-box-shadow: -1px 0px 13px 0px rgba(163,163,163,0.95);
             box-shadow: -1px 0px 13px 0px rgba(163,163,163,0.95);
             &-title{
                 font-size:1.1rem;
@@ -358,16 +359,22 @@ h1 {
             }
         }
         &-pratos{
+            height: 200px;
+            width: 300px;
+            position: relative;
             &-comidas{
-                height: 12rem;
+                position: absolute;
+                left: 50%;
+                height: 100%;
+                transform: translateX(-50%);
             }
         }  
         &-icons{
             &-social{
                 height: .8rem;
-                position: relative;
-                bottom:3rem;
-                left:12.5rem;
+                position: absolute;
+                bottom: 1rem;
+                right: 1rem;
             }
         }
     }
@@ -430,5 +437,11 @@ h1 {
         background-color: #930708;
         padding: .5rem 0;
         font-size: .8rem;
+    }
+}
+
+@media (max-width: 1170px) {
+    body {
+        width: 100vw;
     }
 }

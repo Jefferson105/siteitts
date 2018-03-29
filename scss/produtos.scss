@@ -5,7 +5,6 @@
         @include star-bg(1.3rem, 0);
     }
     &-txt {
-        margin-top: 3rem;
         text-align: center;
         font-size: .9rem;
     }
@@ -14,18 +13,24 @@
         display: flex;
         flex-wrap: wrap;
         margin: 2rem auto;
+        align-items: baseline;
         &-item {
             width: 33%;
-            margin: 1rem auto;
-            &:last-child {
-                align-self: flex-end;
+            margin: 2rem auto;
+            &-link {
+                display: block;
+                text-decoration: none;
+                color: inherit;
             }
             &-container {
                 width: 100%;
-                text-align: center;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: flex-end;
             }
             &-img {
-                height: 15rem;
+                max-height: 15rem;
             }
             &-caption {
                 text-transform: uppercase;

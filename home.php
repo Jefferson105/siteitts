@@ -79,9 +79,6 @@
                 <a class="historia-msg-button" href="empresa.php">Saiba Mais</a>
             </div>
             <figure class="historia-group">
-                <!--<img class="historia-group-img historia-group-img-1" src="img/cafe1.png" />
-                <img class="historia-group-img historia-group-img-2" src="img/cafe2.png" />
-                <img class="historia-group-img historia-group-img-3" src="img/cafe3.png" />-->
                 <img class="historia-group-img" src="img/quemSomos.jpg" />
             </figure>
         </section>
@@ -127,53 +124,46 @@
         <section class="receitas">
             <h2 class="receitas-titulo">Receitas</h2>
             <img class="receitas-imgtitle" src="img/receita.png" />
-            <P class="receitas-txt">Confira nossas receitas e surpreenda-se com os sabores!</P>
+            <p class="receitas-txt">Confira nossas receitas e surpreenda-se com os sabores!</p>
             <section class="receitas-cards">
-                <a href="receita-individual.php" class="cards">
-                    <div class="cards-conteudo">
-                        <figcaption class="cards-conteudo-pratos">
-                            <img src="img/macarrao.jpg" class="cards-conteudo-pratos-comidas">
-                        </figcaption>
+                <div class="cards">
+                    <a href="receita_tomate_recheado.php" class="cards-conteudo">
+                        <figure class="cards-conteudo-pratos">
+                            <img src="img/receitas/tomate-recheado-p.jpg" class="cards-conteudo-pratos-comidas" />
+                        </figure>
                         <div class="cards-conteudo-text">
-                            <h3 class="cards-conteudo-text-title">LOREM IPSUM DOLOR</h3>
-                            <P class="cards-conteudo-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit consectetur adipiscing elit consectetur adipiscing elit.  
-                            </P>
+                            <h3 class="cards-conteudo-text-title">Tomate recheado com muçarela, parmesão e orégano </h3>
+                            <p class="cards-conteudo-text-description">Uma entrada simples, rápida e deliciosa para ser servida durante um momento especial!</p>
+                            <a class="cards-conteudo-icons" href="https://www.facebook.com/inttensofoods/" target="_blank">
+                                <img src="img/face.svg" class="cards-conteudo-icons-social">
+                            </a>
                         </div>
-                        <figcaption class="cards-conteudo-icons">
-                            <a href="https://www.facebook.com/inttensofoods/" target="_blank"><img src="img/face.svg" class="cards-conteudo-icons-social"></a>
-                        </figcaption>
-                    </div>
-                </a>
-                <a href="receita-individual.php" class="cards">
-                    <div class="cards-conteudo">
-                        <figcaption class="cards-conteudo-pratos">
-                            <img src="img/carne.jpg" class="cards-conteudo-pratos-comidas">
-                        </figcaption>
+                    </a>
+                </div>
+                <div class="cards">
+                    <a href="receita_beijinho.php" class="cards-conteudo">
+                        <figure class="cards-conteudo-pratos">
+                            <img src="img/receitas/beijinho-p.jpg" class="cards-conteudo-pratos-comidas">
+                        </figure>
                         <div class="cards-conteudo-text">
-                            <h3 class="cards-conteudo-text-title">LOREM IPSUM DOLOR</h3>
-                            <P class="cards-conteudo-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit consectetur adipiscing elit consectetur adipiscing elit.   
-                            </P>
+                            <h3 class="cards-conteudo-text-title">Beijinho</h3>
+                            <p class="cards-conteudo-text-description">Suas festinhas vão ficar ainda mais doces com essa deliciosa receita de Beijinho!</p>
+                            <a class="cards-conteudo-icons" href="https://www.facebook.com/inttensofoods/" target="_blank"><img src="img/face.svg" class="cards-conteudo-icons-social"></a>
                         </div>
-                        <figcaption class="cards-conteudo-icons">
-                            <a href="https://www.facebook.com/inttensofoods/" target="_blank"><img src="img/face.svg" class="cards-conteudo-icons-social"></a>
-                        </figcaption>
-                    </div>
-                </a>
-                <a href="receita-individual.php" class="cards">
-                    <div class="cards-conteudo">
-                        <figcaption class="cards-conteudo-pratos">
-                            <a href="https://www.facebook.com/inttensofoods/" target="_blank"><img src="img/salada.jpg" class="cards-conteudo-pratos-comidas"></a>
-                        </figcaption>
+                    </a>
+                </div>
+                <div class="cards">
+                    <a href="receita_strogonoff_carne.php" class="cards-conteudo">
+                        <figure class="cards-conteudo-pratos">
+                            <img src="img/receitas/strogonoff-carne-p.jpg" class="cards-conteudo-pratos-comidas">
+                        </figure>
                         <div class="cards-conteudo-text">
-                            <h3 class="cards-conteudo-text-title">LOREM IPSUM DOLOR</h3>
-                            <p class="cards-conteudo-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit consectetur adipiscing elit consectetur adipiscing elit.  
-                            </p>
+                            <h3 class="cards-conteudo-text-title">Strogonoff de Carne</h3>
+                            <p class="cards-conteudo-text-description">Uma deliciosa receita que não deixará sobrar nada!</p>
+                            <a class="cards-conteudo-icons" href="https://www.facebook.com/inttensofoods/" target="_blank"><img src="img/face.svg" class="cards-conteudo-icons-social"></a>
                         </div>
-                        <figcaption class="cards-conteudo-icons">
-                            <a href="https://www.facebook.com/inttensofoods/" target="_blank"><img src="img/face.svg" class="cards-conteudo-icons-social"></a>
-                        </figcaption>
-                    </div>
-                </a>
+                    </a>
+                </div>
             </section>
         </section>
     </main>
@@ -207,3 +197,4 @@
     </footer>
 </body>
 </html>
+    

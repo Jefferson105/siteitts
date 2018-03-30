@@ -28,7 +28,7 @@
         <p class="produtos-breadcrumb"><span>produtos</span> | <span>Condimentos</span> | <span>Bicarbonato de Sódio Inttenso foods</span></p>
         <section class="produtos-individual">
             <figure class="produtos-individual-img">
-                <img class="produtos-individual-img-prod" src="img/produtos/encartelado_acafrao.png" />
+                <img class="produtos-individual-img-prod" src="img/produtos/condimento_bicarbonato.png" />
                 <img class="produtos-individual-img-info" src="img/fundo_produto.png" />
                 <p class="produtos-individual-img-txt">
                     <span>Peso Líquido:180g.</span><br />

@@ -42,7 +42,7 @@
                 </a>
             </li>
             <li class="produtos-list-item">
-                <a class="produtos-list-item-link" href="produto-pimentaforte.php">
+                <a class="produtos-list-item-link" href="produto-bodeamarela.php">
                     <figure class="produtos-list-item-container">
                         <img class="produtos-list-item-img" src="img/produtos/Pimenta bode 30ml.png" />
                         <figcaption>

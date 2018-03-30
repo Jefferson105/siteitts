@@ -39,7 +39,7 @@
             </li>
             <li class="produtos-list-item">
                 <figure class="produtos-list-item-container">
-                    <img class="produtos-list-item-img" src="img/MOLHO DE  ALHO ROXO APIMNETADO 150.png" />
+                    <img class="produtos-list-item-img" src="img/produtos/Molho barbecue 270g.png" />
                     <figcaption>
                         <p><strong>Molho Barbecure 270g</strong></p>
                         <p>7898955459584</p>
@@ -48,7 +48,7 @@
             </li>
             <li class="produtos-list-item">
                 <figure class="produtos-list-item-container">
-                    <img class="produtos-list-item-img" src="img/MOLHO DE  ALHO ROXO APIMNETADO 150.png" />
+                    <img class="produtos-list-item-img" src="img/produtos/Molho ingles 900ml.png" />
                     <figcaption>
                         <p><strong>Molho Inglês 150ml e 900ml</strong></p>
                         <p>Molho Inglês 900ml | 7898955459614</p>
@@ -58,7 +58,7 @@
             </li>
             <li class="produtos-list-item">
                 <figure class="produtos-list-item-container">
-                    <img class="produtos-list-item-img" src="img/MOLHO DE  ALHO ROXO APIMNETADO 150.png" />
+                    <img class="produtos-list-item-img" src="img/produtos/MOLHO DE  ALHO ROXO APIMNETADO 150.png" />
                     <figcaption>
                         <p><strong>Molho de Alho Roxo Apimentado 150ml e 900ml</strong></p>
                         <p>Molho de Alho Roxo Apimentado 900 ml | 9898955459621</p>
@@ -68,7 +68,7 @@
             </li>
             <li class="produtos-list-item">
                 <figure class="produtos-list-item-container">
-                    <img class="produtos-list-item-img" src="img/MOLHO DE  ALHO ROXO APIMNETADO 150.png" />
+                    <img class="produtos-list-item-img" src="img/produtos/Molho de pimenta EXTRA-forte 900ml.png" />
                     <figcaption>
                         <p><strong>Molho de Pimenta Extra Forte 150ml e 900ml</strong></p>
                         <p>Molho de Pimenta Extra Forte 900ml | 7898955459638</p>
@@ -78,7 +78,7 @@
             </li>
             <li class="produtos-list-item">
                 <figure class="produtos-list-item-container">
-                    <img class="produtos-list-item-img" src="img/MOLHO DE  ALHO ROXO APIMNETADO 150.png" />
+                    <img class="produtos-list-item-img" src="img/produtos/Molho de pimenta forte 900ml.png" />
                     <figcaption>
                         <p><strong>Molho de Pimenta Forte 150ml e 900ml</strong></p>
                         <p>Molho de Pimenta Forte 900ml | 7898955459652</p>
@@ -88,7 +88,7 @@
             </li>
             <li class="produtos-list-item">
                 <figure class="produtos-list-item-container">
-                    <img class="produtos-list-item-img" src="img/MOLHO DE  ALHO ROXO APIMNETADO 150.png" />
+                    <img class="produtos-list-item-img" src="img/produtos/Molho de oimenta suave 900ml.png" />
                     <figcaption>
                         <p><strong>Molho de Pimenta Suave 150ml e 900ml</strong></p>
                         <p>Molho de Pimenta Suave 900ml | 7898955459645</p>
@@ -98,7 +98,7 @@
             </li>
             <li class="produtos-list-item">
                 <figure class="produtos-list-item-container">
-                    <img class="produtos-list-item-img" src="img/MOLHO DE  ALHO ROXO APIMNETADO 150.png" />
+                    <img class="produtos-list-item-img" src="img/produtos/MOLHO SHOYO 150.png" />
                     <figcaption>
                         <p><strong>Molho Shoyu 150ml e 900ml</strong></p>
                         <p>Molho Shoyu 900ml | 7898955459669</p>

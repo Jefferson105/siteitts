@@ -59,7 +59,7 @@ gulp.task("serve", () => {
         /*server: {
             baseDir: "./"  
         }*/
-        proxy: "http://localhost:8080/wordpress/wp-content/themes/inttenso/home.php"
+        proxy: "localhost/siteitts/home.php"
     });
 
     gulp.watch(glob.sass, ["sass:compile"]);

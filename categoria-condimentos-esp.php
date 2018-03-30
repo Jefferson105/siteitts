@@ -29,7 +29,7 @@
         <ul class="produtos-list">
             <li class="produtos-list-item">
                 <figure class="produtos-list-item-container">
-                    <img class="produtos-list-item-img" src="img/Molho de alho roxo 900ml.png" />
+                    <img class="produtos-list-item-img" src="img/produtos/ketchup_370ml.png" />
                     <figcaption>
                         <p><strong>Ketchup Tradicional 370ml</strong></p>
                         <p>7898955459560</p>
@@ -40,7 +40,7 @@
             </li>
             <li class="produtos-list-item">
                 <figure class="produtos-list-item-container">
-                    <img class="produtos-list-item-img" src="img/Molho de alho roxo 900ml.png" />
+                    <img class="produtos-list-item-img" src="img/produtos/Mostarda 200g.png" />
                     <figcaption>
                         <p><strong>Mostarda Amarela 200g</strong></p>
                         <p>7898955459577</p>

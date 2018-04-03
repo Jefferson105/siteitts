@@ -13,11 +13,11 @@
         </address>
         <ul class="footer-menu">
             <li class="footer-menu-tit"><h4 class="footer-title">Menu</h4></li>
-            <li class="footer-menu-item"><a href="index.php">Home</a></li>
-            <li class="footer-menu-item"><a href="empresa.php">Empresa</a></li>
-            <li class="footer-menu-item"><a href="produtos.php">Produtos</a></li>
-            <li class="footer-menu-item"><a href="receitas.php">Receitas</a></li>
-            <li class="footer-menu-item"><a href="contato.php">Fale conosco</a></li>
+            <li class="footer-menu-item"><a href="<?php echo relativeUrl() ?>">Home</a></li>
+            <li class="footer-menu-item"><a href="<?php echo relativeUrl('empresa') ?>">Empresa</a></li>
+            <li class="footer-menu-item"><a href="<?php echo relativeUrl('produtos') ?>">Produtos</a></li>
+            <li class="footer-menu-item"><a href="<?php echo relativeUrl('receitas') ?>">Receitas</a></li>
+            <li class="footer-menu-item"><a href="<?php echo relativeUrl('contato') ?>">Fale conosco</a></li>
         </ul>
         <div class="footer-social">
             <h4 class="footer-title">Rede Social</h4>

@@ -9,7 +9,7 @@
         <p class="produtos-txt">O Inttenso Foods se preocupa em produzir os melhores produtos para você e sua família desfrutarem de sabores indescritíveis. <br/>Nas receitas doces ou salgadas, nosso mix atende a todas as necessidades. <br/><b>Conheça nossos produtos!</b> </p>
         <ul class="produtos-list">
             <li class="produtos-list-item">
-            <a class="produtos-list-item-link" href="produto-ketchup.php">
+            <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-ketchup') ?>">
                 <figure class="produtos-list-item-container">
                     <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/ketchup_370ml.png') ?>" />
                     <figcaption>
@@ -22,7 +22,7 @@
             </a>
             </li>
             <li class="produtos-list-item">
-            <a class="produtos-list-item-link" href="produto-mostarda.php">
+            <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-mostarda') ?>">
                 <figure class="produtos-list-item-container">
                     <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/Mostarda 200g.png') ?>" />
                     <figcaption>

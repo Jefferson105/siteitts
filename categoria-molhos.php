@@ -9,7 +9,7 @@
         <p class="produtos-txt">O Inttenso Foods se preocupa em produzir os melhores produtos para você e sua família desfrutarem de sabores indescritíveis. <br/>Nas receitas doces ou salgadas, nosso mix atende a todas as necessidades. <br/><b>Conheça nossos produtos!</b> </p>
         <ul class="produtos-list">
             <li class="produtos-list-item">
-            <a class="produtos-list-item-link" href="produto-molhoalhoroxo.php">
+            <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-molho-alho-roxo') ?>">
                 <figure class="produtos-list-item-container">
                     <img class="produtos-list-item-img" src="<?php echo theme_image('prdutodos/Molho-de-alho-roxo-900ml.png') ?>" />
                     <figcaption>
@@ -21,7 +21,7 @@
                 </a>
             </li>
             <li class="produtos-list-item">
-            <a class="produtos-list-item-link" href="produto-molhoBarbecure.php">
+            <a class="produtos-list-item-link"href="<?php echo relativeUrl('produto-molho-barbecure') ?>">
                 <figure class="produtos-list-item-container">
                     <img class="produtos-list-item-img" src="<?php echo theme_image('prdutodos/Molho-barbecue-270g.png') ?>" />
                     <figcaption>
@@ -32,7 +32,7 @@
             </a>  
             </li>
             <li class="produtos-list-item">
-            <a class="produtos-list-item-link" href="produtos-molhoingles.php">
+            <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-molho-ingles') ?>">
                 <figure class="produtos-list-item-container">
                     <img class="produtos-list-item-img" src="<?php echo theme_image('prdutodos/Molho-ingles-900ml.png') ?>" />
                     <figcaption>
@@ -44,7 +44,7 @@
             </a>  
             </li>
             <li class="produtos-list-item">
-            <a class="produtos-list-item-link" href="produto-molhoroxoapimentado.php">
+            <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-alho-roxo-apimentado') ?>">
                 <figure class="produtos-list-item-container">
                     <img class="produtos-list-item-img" src="<?php echo theme_image('prdutodos/MOLHO-DE-ALHO-ROXO-APIMNETADO-150.png') ?>" />
                     <figcaption>
@@ -56,7 +56,7 @@
             </a>  
             </li>
             <li class="produtos-list-item">
-            <a class="produtos-list-item-link" href="produto-pimentaextraforte.php">
+            <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-pimenta-extra-forte') ?>">
                 <figure class="produtos-list-item-container">
                     <img class="produtos-list-item-img" src="<?php echo theme_image('prdutodos/Molho-de-pimenta-EXTRA-forte-900ml.png') ?>" />
                     <figcaption>
@@ -68,7 +68,7 @@
             </a> 
             </li>
             <li class="produtos-list-item">
-            <a class="produtos-list-item-link" href="produto-pimentaforte.php">
+            <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-pimenta-forte') ?>">
                 <figure class="produtos-list-item-container">
                     <img class="produtos-list-item-img" src="<?php echo theme_image('prdutodos/Molho-de-pimenta-forte-900ml.png') ?>" />
                     <figcaption>
@@ -80,7 +80,7 @@
             </a>   
             </li>
             <li class="produtos-list-item">
-            <a class="produtos-list-item-link" href="produto-pimentasuave.php">
+            <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-pimenta-suave') ?>">
                 <figure class="produtos-list-item-container">
                     <img class="produtos-list-item-img" src="<?php echo theme_image('prdutodos/Molho-de-oimenta-suave-900ml.png') ?>" />
                     <figcaption>
@@ -92,7 +92,7 @@
             </a>  
             </li>
             <li class="produtos-list-item">
-            <a class="produtos-list-item-link" href="produto-shoyu.php">
+            <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-shoyu') ?>">
                 <figure class="produtos-list-item-container">
                     <img class="produtos-list-item-img" src="<?php echo theme_image('prdutodos/MOLHO-SHOYO-150.png') ?>" />
                     <figcaption>

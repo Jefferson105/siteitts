@@ -9,7 +9,7 @@
         <p class="produtos-txt">O Inttenso Foods se preocupa em produzir os melhores produtos para você e sua família desfrutarem de sabores indescritíveis. <br/>Nas receitas doces ou salgadas, nosso mix atende a todas as necessidades. <br/><b>Conheça nossos produtos!</b> </p>
         <ul class="produtos-list">
             <li class="produtos-list-item">
-            <a class="produtos-list-item-link" href="produto-acafrao.php">
+            <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-acafrao') ?>">
                 <figure class="produtos-list-item-container">
                     <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/condimento_acafrao.png'); ?>" />
                     <figcaption>
@@ -20,7 +20,7 @@
             </a>
             </li>
             <li class="produtos-list-item">
-            <a class="produtos-list-item-link" href="produtos-salhimalaia.php">
+            <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-sal-himalaia') ?>">
                 <figure class="produtos-list-item-container">
                     <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/condimento_sal_rosa.png') ?>" />
                     <figcaption>
@@ -31,7 +31,7 @@
                 </a>
             </li>
             <li class="produtos-list-item">
-            <a class="produtos-list-item-link" href="produtos-sallimao.php">
+            <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-sal-himalaia') ?>">
                 <figure class="produtos-list-item-container">
                     <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/condimento_sal_limao.png') ?>" />
                     <figcaption>
@@ -42,7 +42,7 @@
             </a>
             </li>
             <li class="produtos-list-item">
-            <a class="produtos-list-item-link" href="produto-bicarbonato.php">
+            <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-sal-limao') ?>">
                 <figure class="produtos-list-item-container">
                     <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/condimento_bicarbonato.png') ?>" />
                     <figcaption>
@@ -53,7 +53,7 @@
                 </a>
             </li>
             <li class="produtos-list-item">
-            <a class="produtos-list-item-link" href="produtos- glutamato.php">
+            <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-glumato') ?>">
                 <figure class="produtos-list-item-container">
                     <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/condimento_glumato.png') ?>" />
                     <figcaption>
@@ -64,7 +64,7 @@
             </a>
             </li>
             <li class="produtos-list-item">
-            <a class="produtos-list-item-link" href="produtos-canela.php">
+            <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-canela') ?>">
                 <figure class="produtos-list-item-container">
                     <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/condimento_canela_po.png') ?>" />
                     <figcaption>
@@ -75,7 +75,7 @@
             </a>
             </li>
             <li class="produtos-list-item">
-            <a class="produtos-list-item-link" href="produto-canelacasca.php">
+            <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-canela-casca') ?>">
                 <figure class="produtos-list-item-container">
                     <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/condimento_canela_casca.png') ?>" />
                     <figcaption>
@@ -86,7 +86,7 @@
             </a>
             </li>
             <li class="produtos-list-item">
-            <a class="produtos-list-item-link" href="produtos-pimentamoida.php">
+            <a class="produtos-list-item-link" href="<?php echo relativeUrl('pimenta-moida') ?>">
                 <figure class="produtos-list-item-container">
                     <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/condimento_pimenta_reino_grao.png') ?>" />
                     <figcaption>
@@ -97,7 +97,7 @@
             </a>
             </li>
             <li class="produtos-list-item">
-            <a class="produtos-list-item-link" href="produtos-pimentagraos.php">
+            <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-pimenta-em-grao') ?>">
                 <figure class="produtos-list-item-container">
                     <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/condimento_pimenta_reino_grao.png') ?>" />
                     <figcaption>
@@ -108,7 +108,7 @@
             </a>
             </li>
             <li class="produtos-list-item">
-            <a class="produtos-list-item-link" href="produtos-pimentacalabresa.php">
+            <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-pimenta-calabresa') ?>">
                 <figure class="produtos-list-item-container">
                     <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/condimento_pimenta_calabreza.png') ?>" />
                     <figcaption>
@@ -119,7 +119,7 @@
             </a>
             </li>
             <li class="produtos-list-item">
-            <a class="produtos-list-item-link" href="produtos-cravoindia.php">
+            <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-cravo-da-india') ?>">
                 <figure class="produtos-list-item-container">
                     <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/condimento_cravo_india.png') ?>" />
                     <figcaption>
@@ -130,7 +130,7 @@
             </a>
             </li>
             <li class="produtos-list-item">
-            <a class="produtos-list-item-link" href="produto-colorifico.php">
+            <a class="produtos-list-item-link "href="<?php echo relativeUrl('produto-colorifico') ?>">
                 <figure class="produtos-list-item-container">
                     <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/condimento_clorifico.png') ?>" />
                     <figcaption>
@@ -141,7 +141,7 @@
             </a>
             </li>
             <li class="produtos-list-item">
-            <a class="produtos-list-item-link" href="produto-tomateseco.php">
+            <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-tomate-seco') ?>">
                 <figure class="produtos-list-item-container">
                     <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/condimento_tomate_seco.png') ?>" />
                     <figcaption>

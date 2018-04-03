@@ -9,7 +9,7 @@
         <p class="receitas-txt">Sabores surpreendentes, receitas que inspiram! Conheça nossas receitas e descubra novas formas de encantar.</p>
         <section class="receitas-cards">
             <div class="cards">
-                <a href="receita_tomate_recheado.php" class="cards-conteudo">
+                <a class="cards-conteudo" href="<?php echo relativeUrl('receita-tomate-recheado') ?>"> 
                     <figure class="cards-conteudo-pratos">
                         <img src="<?php echo theme_image('receitas/tomate-recheado-p.jpg') ?>" class="cards-conteudo-pratos-comidas" />
                     </figure>
@@ -23,7 +23,7 @@
                 </a>
             </div>
             <div class="cards">
-                <a href="receita_beijinho.php" class="cards-conteudo">
+            <a class="cards-conteudo" href="<?php echo relativeUrl('receita-beijinho') ?>">
                     <figure class="cards-conteudo-pratos">
                         <img src="<?php echo theme_image('receitasa/beijinho-p.jpg') ?>" class="cards-conteudo-pratos-comidas">
                     </figure>
@@ -35,7 +35,7 @@
                 </a>
             </div>
             <div class="cards">
-                <a href="receita_strogonoff_carne.php" class="cards-conteudo">
+            <a class="cards-conteudo" href="<?php echo relativeUrl('receita-strogonoff-carne') ?>">
                     <figure class="cards-conteudo-pratos">
                         <img src="<?php echo theme_image('receitas/strogonoff-carne-p.jpg') ?>" class="cards-conteudo-pratos-comidas">
                     </figure>
@@ -47,7 +47,7 @@
                 </a>
             </div>
             <div class="cards">
-                <a href="receita_guacamole.php" class="cards-conteudo">
+            <a class="cards-conteudo" href="<?php echo relativeUrl('receita-guacamole') ?>">
                     <figure class="cards-conteudo-pratos">
                         <img src="<?php echo theme_image('receitas/guacamole-p.jpg') ?>" class="cards-conteudo-pratos-comidas" />
                     </figure>
@@ -59,7 +59,7 @@
                 </a>
             </div>
             <div class="cards">
-                <a href="receita_molho_pesto.php" class="cards-conteudo">
+            <a class="cards-conteudo" href="<?php echo relativeUrl('receita-molho-pesto') ?>">
                     <figure class="cards-conteudo-pratos">
                         <img src="<?php echo theme_image('receitas/molho-pesto-p.jpg') ?>" class="cards-conteudo-pratos-comidas" />
                     </figure>
@@ -71,7 +71,7 @@
                 </a>
             </div>
             <div class="cards">
-                <a href="receita_bolo_laranja_camo.php" class="cards-conteudo">
+            <a class="cards-conteudo" href="<?php echo relativeUrl('receita-bolo-laranja-camomila') ?>">
                     <figure class="cards-conteudo-pratos">
                         <img src="<?php echo theme_image('receitas/bolo-laranja-camomila-p.jpg') ?>" class="cards-conteudo-pratos-comidas" />
                     </figure>

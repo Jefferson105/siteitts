@@ -9,7 +9,7 @@
         <p class="produtos-txt">O Inttenso Foods se preocupa em produzir os melhores produtos para você e sua família desfrutarem de sabores indescritíveis. <br/>Nas receitas doces ou salgadas, nosso mix atende a todas as necessidades. <br/><b>Conheça nossos produtos!</b> </p>
         <ul class="produtos-list">
             <li class="produtos-list-item">
-                <a class="produtos-list-item-link" href="produto-pimentabiquinho.php">
+                <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-pimenta-biquinho') ?>">
                     <figure class="produtos-list-item-container">
                         <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/pimenta_biquinho.png') ?>" />
                         <figcaption>
@@ -23,7 +23,7 @@
                 </a>
             </li>
             <li class="produtos-list-item">
-                <a class="produtos-list-item-link" href="produto-bodeamarela.php">
+                <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-bode-amarela') ?>">
                     <figure class="produtos-list-item-container">
                         <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/Pimenta-bode-30ml.png') ?>" />
                         <figcaption>
@@ -37,7 +37,7 @@
                 </a>
             </li>
             <li class="produtos-list-item">
-                <a class="produtos-list-item-link" href="produtos-pimentabodevermelha.php">
+                <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-pimenta-bode-vermelha') ?>">
                     <figure class="produtos-list-item-container">
                         <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/PIMENTA-DE-BODE-400.png') ?>" />
                         <figcaption>
@@ -51,7 +51,7 @@
                 </a>
             </li>
             <li class="produtos-list-item">
-                <a class="produtos-list-item-link" href="produto-pimentacumarimamarela.php">
+                <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-pimenta-cumarim-amarela') ?>">
                     <figure class="produtos-list-item-container">
                         <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/PIMENTA-CUMARIM-AMARELA-400.png') ?>" />
                         <figcaption>
@@ -65,7 +65,7 @@
                 </a>
             </li>
             <li class="produtos-list-item">
-                <a class="produtos-list-item-link" href="produto-pimentacumarimvermelha.php">
+                <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-pimenta-cumarim-vermelha') ?>">
                     <figure class="produtos-list-item-container">
                         <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/PIMENTA-CUMARIM-VER-400.png') ?>" />
                         <figcaption>
@@ -79,7 +79,7 @@
                 </a>
             </li>
             <li class="produtos-list-item">
-                <a class="produtos-list-item-link" href="produto-pimentamalagueta.php">
+                <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-pimenta-malagueta') ?>">
                     <figure class="produtos-list-item-container">
                         <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/PIMENTA-MALAGUETA-400.png') ?>" />
                         <figcaption>

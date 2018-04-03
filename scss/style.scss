@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: "Lora-Regular";
-    src: url("../fonts/Lora-Regular.ttf"); 
+    src: url("fonts/Lora-Regular.ttf"); 
 }
 
 @import url('https://fonts.googleapis.com/css?family=Lobster');
@@ -35,7 +35,7 @@ h1 {
     color: #FFF;
     font-size: 2rem;
     text-transform: uppercase;
-    @media (max-width: 1440px) {
+    @media (max-width: nth($break-point, 1)) {
         top: 170px;
     }
 }
@@ -43,6 +43,9 @@ h1 {
 .container {
     max-width: $body-width; 
     margin: 0 auto;
+    @media (max-width: $body-width) {
+        width: 100%;
+    }
 }
 
 .slide {
@@ -63,9 +66,15 @@ h1 {
         }
         &:first-child {
             left: -10%;
+            @media (max-width: nth($break-point, 2)) {
+                left: 0;
+            }
         }
         &:last-child {
-           right: -10%; 
+            right: -10%; 
+            @media (max-width: nth($break-point, 2)) {
+                right: 0;
+            }
         }
     }
     &-list {
@@ -85,7 +94,7 @@ h1 {
         z-index: 2;
         padding: 1rem 0;
         background-color: rgba(255,255,255,.7);
-        @media (max-width: 1440px) {
+        @media (max-width: nth($break-point, 1)) {
             padding: 0;    
         }
         &.home {
@@ -130,7 +139,7 @@ h1 {
             position: relative;
             top: 3rem;
             overflow: hidden;
-            @media (max-width: 1440px) {
+            @media (max-width: nth($break-point, 1)) {
                 top: -3rem;
             }
             &-item {
@@ -150,8 +159,8 @@ h1 {
         width: 100%;
         height: 500px;
         overflow: hidden;
-        @media (max-width: 1440px) {
-            height: 270px;
+        @media (max-width: nth($break-point, 1)) {
+            height: 400px;
             &.banner-home {
                 height: 380px;
             }
@@ -181,6 +190,12 @@ h1 {
     width: 1170px;
     &-img {
         height: 320px;
+        @media (max-width: nth($break-point,1)) {
+            height: 280px;
+        }
+        @media (max-width: nth($break-point,4)) {
+            display: none;
+        }
     }
     &-frases {
         text-align: center;
@@ -206,7 +221,7 @@ h1 {
                 position: absolute;
                 top: -3rem;
                 left: -3rem;
-                background: url("../img/inttensidade.png") no-repeat;
+                background: url("img/inttensidade.png") no-repeat;
                 background-size: 8rem 6rem;
                 width: 8rem;
                 height: 6rem;
@@ -281,7 +296,7 @@ h1 {
 }
 
 .produtos {
-    background-image: url("../img/fundo_produtos.png");
+    background-image: url("img/fundo_produtos.png");
     @extend %fill-width;
     height: 45rem;
     padding: 12rem 0 8rem 0;

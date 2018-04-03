@@ -1,8 +1,13 @@
 $red-text: #D2161C;
 
+$break-point: 1440px 1367px 1009px 778px;
+
 %fill-width {
     width: 100vw;
     transform: translateX(calc(((100vw - 1170px) / 2) * -1));
+    @media (max-width: nth($break-point, 2)) {
+        transform: none;
+    }
 }
 
 %absolute-initial {

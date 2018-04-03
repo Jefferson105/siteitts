@@ -8,16 +8,12 @@ const autoprefixer = require("gulp-autoprefixer");
 
 const pathto = {
     scss: path.join(__dirname, "/scss"),
-    css: path.join(__dirname, "/css"),
-    js: path.join(__dirname, "/js"),
-    paginas: path.join(__dirname, "/")
+    css: path.join(__dirname, "/css")
 };
 
 const glob = {
     sass: path.join(pathto.scss, "/**/*.{scss,sass}"),
-    css: path.join(pathto.css, "/**/*.css"),
-    js: path.join(pathto.js, "/**/*.js"),
-    paginas: path.join(pathto.paginas, "/*.html")
+    css: path.join(pathto.css, "/**/*.css")
 };
 
 gulp.task("sass:compile", () => {
@@ -31,44 +27,21 @@ gulp.task("sass:compile", () => {
     .pipe(sync.stream(sync.stream()));
 });
 
-function jsCompile({ path }) {
-    return gulp.src(path)
-        .pipe(sourcemaps.init())
-        .pipe(uglify())
-        .pipe(sourcemaps.write("."))
-        .pipe(gulp.dest("./public/js"))
-        .pipe(sync.stream(sync.stream()));
-}
-
-gulp.task("compress", function() {
-    return gulp.src(glob.js)
-        .pipe(uglify())
-        .on("error", function(err){ gutil.log(gutil.colors.red("[Error]"), err.toString()); })
-        .pipe(rename({suffix: ".min"}))
-        .pipe(gulp.dest(function(file) {
-            return file.base;
-        }));
-});
-
 gulp.task("sass:watch", () => {
     gulp.watch(glob.sass, ["sass:compile"]);
 });
 
 gulp.task("serve", () => {
     sync.init({
-        /*server: {
-            baseDir: "./"  
-        }*/
-        proxy: "localhost:8080/wordpress/wp-content/themes/inttenso/home.php"
+        proxy: "http://inttensofoods.com.br"
     });
 
     gulp.watch(glob.sass, ["sass:compile"]);
     //gulp.watch(glob.css, ["css:compile"]);
-    gulp.watch(glob.js).on("change",  jsCompile);
-    gulp.watch(glob.paginas).on("change", sync.reload);
 });
 
 gulp.task("default", ["serve"]);
 
 //proxy: "localhost/siteitts/home.php"
 //proxy: "localhost:8080/wordpress/wp-content/themes/inttenso/home.php"
+//proxy: "localhost:8080/wordpress/"

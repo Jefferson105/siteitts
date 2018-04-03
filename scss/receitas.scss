@@ -7,6 +7,10 @@
         top: 230px;
         height: 12rem;
         @extend %center-absolute;
+        @media (max-width: 1440px) {
+            top: 170px;
+            height: 10rem;
+        }
     }
     &-cards {
         flex-wrap: wrap;

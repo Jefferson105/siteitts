@@ -1,29 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Inttenso - Empresa</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/empresa.css" />
-</head>
-<body>
-    <header class="header">
-        <nav class="header-menu">
-            <ul class="header-menu-list">
-                <li class="header-menu-list-item"><a href="empresa.php">Empresa</a></li>
-                <li class="header-menu-list-item"><a href="produtos.php">Produtos</a></li>
-                <li class="header-menu-list-item logo"><a href="index.php"><img src="img/logo.png" /></a></li>
-                <li class="header-menu-list-item"><a href="receitas.php">Receitas</a></li>
-                <li class="header-menu-list-item"><a href="contato.php">Fale conosco</a></li>
-            </ul>
-        </nav>
-        <figure class="header-banner">
-            <img src="img/header_other.png" />
-        </figure>
-        <h1>Empresa</h1>
-    </header>
+<?php 
+    /*
+        Template Name: Empresa
+    */
+
+    get_header('about');
+?>
     <main>
         <section class="nossaHistoria">
             <div class="nossaHistoria-hist">
@@ -34,7 +15,7 @@
                 <p class="nossaHistoria-hist-txt">Com produtos fabricados com matérias – primas selecionadas, o Inttenso Foods preocupa-se com o alto padrão, qualificação e segurança na produção de seu mix. Em todos os momentos do seu dia, compartilhe bons momentos, compartilhe Inttenso Foods.</p>
             </div>
             <figure class="nossaHistoria-img">
-                <img src="img/cafe_torrado_3.png" />
+                <img src="<?php echo theme_image('quemSomos.jpg') ?>" />
             </figure>
         </section>
         <section class="qualidades">
@@ -70,34 +51,4 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
-        <div class="container footer-main">
-            <figure class="footer-logo">
-                <img src="img/logo.png">
-            </figure>
-            <address class="footer-address">
-                <h4 class="footer-title">Contato:</h4>
-                Rua São Francisco, nº 40<br />
-                Bairro Mosenhor Parreiras<br />
-                Luz/MG | CEP 35.595-000<br />
-                Telefax: (37) 3421-6600<br />
-                cafeinttenso@cafeinttenso.com.br
-            </address>
-            <ul class="footer-menu">
-                <li class="footer-menu-tit"><h4 class="footer-title">Menu</h4></li>
-                <li class="footer-menu-item"><a href="index.php">Home</a></li>
-                <li class="footer-menu-item"><a href="empresa.php">Empresa</a></li>
-                <li class="footer-menu-item"><a href="produtos.php">Produtos</a></li>
-                <li class="footer-menu-item"><a href="receitas.php">Receitas</a></li>
-                <li class="footer-menu-item"><a href="contato.php">Fale conosco</a></li>
-            </ul>
-            <div class="footer-social">
-                <h4 class="footer-title">Rede Social</h4>
-                <img class="footer-social-imgFace" src="img/facebook-logo.svg" />
-                <img src="img/instagram-logo.svg" />
-            </div>
-        </div>
-        <p class="footer-copy">2018 Copyright todos os direitos reservados. Desenvolvido por Unick360</p>
-    </footer>
-</body>
-</html>
+    <?php get_footer(); ?>

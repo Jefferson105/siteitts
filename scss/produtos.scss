@@ -50,17 +50,20 @@
         justify-content: center;
         &-img {
             text-align: center;
+            margin-right: 1rem;
             &-prod {
                 height: 25rem;
+                display: block;
+                margin: 0 auto;
             }
             &-info {
-                width: 70%;
+                width: 300px;
             }
             &-txt {
                 font-weight: bold;
                 color: #FFFF0F;
                 position: relative;
-                bottom: 14%;
+                bottom: 15%;
             }
         }
         &-info {

@@ -1,0 +1,10 @@
+/*
+Theme Name: Inttenso
+Theme URI: http://inttensofoods.com.br
+Author: Unick 360
+Author URI: http://unick360.com.br
+Description: Tema Wordpress para Inttenso Foods
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: inttenso
+*/

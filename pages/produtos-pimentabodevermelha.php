@@ -22,29 +22,29 @@
         <figure class="header-banner">
             <img src="img/header_other.png" />
         </figure>
-        <h1 class="produtos-h1">Produtos | Cafés</h1>
+        <h1 class="produtos-h1">Pimenta Bode Vermelha foods</h1>
     </header>
 <main>
-        <p class="produtos-breadcrumb"><span>produtos</span> | <span>Molhos</span> | <span>Molho de Pimenta Suave Inttenso foods</span></p>
+        <p class="produtos-breadcrumb"><span>produtos</span> | <span>Molhos</span> | <span>Pimenta Bode Vermelha foods</span></p>
         <section class="produtos-individual">
             <figure class="produtos-individual-img">
-                <img class="produtos-individual-img-prod" src="img/produtos/MOLHO DE PIMENTA SUAVE 150.png" />
+                <img class="produtos-individual-img-prod" src="img/produtos/PIMENTA DE BODE VERMELHA 180.png" />
                 <img class="produtos-individual-img-info" src="img/fundo_produto.png" />
                 <p class="produtos-individual-img-txt">
-                    <span>Peso Líquido:150ml e 900ml.</span><br />
+                    <span>Peso Líquido: 400g, 180g, 60g, 30g.</span><br />
                     <span>Validade: VIDE LOTE</span>
                 </p>
             </figure>
             <div class="produtos-individual-info">
                 <div class="produtos-individual-info-container"> 
-                    <h3 class="produtos-individual-info-nome">Molho de Pimenta Suave 150ml e 900ml</h3>
+                    <h3 class="produtos-individual-info-nome">Pimenta Bode Vermelha 400g, 180g, 60g, 30g</h3>
                     <p class="produtos-individual-info-txt">Conservar em local seco e arejado. Depois de aberto conservar preferencialmente
                     em geladeira. Válido por 30 dias depois de aberto.
                     </p>
                     <table class="produtos-individual-info-table">
                         <caption>
                             <span>Informação nutricional</span>
-                            <span>Porção de 6 ml (1/2 colher de sopa)
+                            <span>Porção de 15 g drenado (1 colher de sopa)
                             </span>
                         </caption>
                         <tr>
@@ -54,7 +54,7 @@
                         </tr>
                         <tr>
                             <td>Valor energético</td>
-                            <td>0</td>
+                            <td>0 kcal = 0 kJ</td>
                             <td>0</td>
                         </tr>
                         <tr>
@@ -89,20 +89,19 @@
                         </tr>
                         <tr>
                             <td>Sódio</td>
-                            <td>300mg</td>
-                            <td>3</td>
+                            <td>214mg</td>
+                            <td>9</td>
                         </tr>
                         <tr>
                             <td colspan="3" class="produtos-individual-info-valores"> * % Valores Diários de referência com base em uma dieta de 2.000kcal ou 8.400kJ. 
                             **Seus valores diários podem ser maiores ou menores dependendo de suas necessidades energéticas.
-                            (***) Não contém quantidade significativa deste(s) nutriente(s).
+                            (***) Não contém quantidade significativa deste(s) nutriente(s). Alérgicos: Não contém glúten.
                             </td>
                         </tr>
                     </table>
                     <div class="produtos-individual-ingrediente">
                         <h4 class="produtos-individual-ingrediente-title">Ingredientes:</h4>
-                        <p class="produtos-individual-ingrediente-txt"> Polpa de pimenta, sal, amido de milho, benzoato de sódio, vinagre, goma xantana e ácido cítrico.Alérgicos: Não contém glúten.
-                        </p>
+                        <p class="produtos-individual-ingrediente-txt">Pimenta, vinagre e sal.</p>
                     </div>
                 </div>
             </div>

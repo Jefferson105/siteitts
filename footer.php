@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="container footer-main">
         <figure class="footer-logo">
-            <img src="img/logo.png">
+            <img src="<?php echo theme_image('logo.png') ?>">
         </figure>
         <address class="footer-address">
             <h4 class="footer-title">Contato:</h4>
@@ -25,4 +25,7 @@
         </div>
     </div>
     <p class="footer-copy">2018 Copyright todos os direitos reservados. Desenvolvido por Unick360</p>
+    <?php wp_footer(); ?>
 </footer>
+</body>
+</html>

@@ -44,20 +44,19 @@
                 <img class="produtos-individual-img-prod" src="<?php echo theme_image('produtos/condimento_acafrao.png') ?>" />
                 <img class="produtos-individual-img-info" src="<?php echo theme_image('fundo_produto.png') ?>" />
                 <p class="produtos-individual-img-txt">
-                    <span>Peso Líquido:80g.</span><br />
-                    <span>Validade: VIDE LOTE</span>
+                    <span><?php echo $peso_do_produto; ?></span><br />
+                    <span><?php echo $validade; ?></span>
                 </p>
             </figure>
             <div class="produtos-individual-info">
                 <div class="produtos-individual-info-container"> 
-                    <h3 class="produtos-individual-info-nome"><?php echo $produto ?> 80g</h3>
-                    <p class="produtos-individual-info-txt">Conservar em local seco e arejado. Depois de aberto conservar preferencialmente
-                    em geladeira. Válido por 30 dias depois de aberto.
+                    <h3 class="produtos-individual-info-nome"><?php echo $produto; ?> 80g</h3>
+                    <p class="produtos-individual-info-txt"><?php echo $modo_de_conservacao; ?>
                     </p>
                     <table class="produtos-individual-info-table">
                         <caption>
                             <span>Informação nutricional</span>
-                            <span>Porção de 1 g (1 colher de chá)
+                            <span><?php echo $informacao_nutricional; ?>
                             </span>
                         </caption>
                         <tr>
@@ -67,58 +66,56 @@
                         </tr>
                         <tr>
                             <td>Valor energético</td>
-                            <td>0</td>
-                            <td>0</td>
+                            <td> <?php echo $valor_energetico; ?> </td>
+                            <td> <?php echo $valor_energetico_vd; ?></td>
                         </tr>
                         <tr>
                             <td>Carboidratos</td>
-                            <td>menor que 1g</td>
-                            <td>0</td>
+                            <td><?php echo $carboidratos; ?></td>
+                            <td><?php echo $carboidratos_vd; ?></td>
                         </tr>
                         <tr>
                             <td>Proteínas</td>
-                            <td>0</td>
-                            <td>0</td>
+                            <td><?php echo $proteinas; ?></td>
+                            <td><?php echo $proteinas_vd; ?></td>
                         </tr>
                         <tr>
                             <td>Gorduras Totais</td>
-                            <td>0</td>
-                            <td>0</td>
+                            <td><?php echo $gorduras_totais; ?></td>
+                            <td><?php echo $gorduras_totais_vd; ?></td>
                         </tr>
                         <tr>
                             <td>Gorduras Saturadas</td>
-                            <td>0</td>
-                            <td>0</td>
+                            <td><?php echo$gorduras_saturadas; ?></td>
+                            <td><?php echo$gorduras_saturadas_vd; ?></td>
                         </tr>
                         <tr>
                             <td>Gorduras Trans</td>
-                            <td>0</td>
-                            <td>0</td>
+                            <td><?php echo $gorduras_trans; ?></td>
+                            <td><?php echo $gorduras_trans_vd; ?></td>
                         </tr>
                         <tr>
                             <td>Fibra alimentar</td>
-                            <td>0</td>
-                            <td>0</td>
+                            <td><?php echo $fibra_alimentar; ?></td>
+                            <td><?php echo $fibra_alimentar_vd; ?></td>
                         </tr>
                         <tr>
                             <td>Sódio</td>
-                            <td>214mg</td>
-                            <td>9</td>
+                            <td><?php echo $sodio; ?></td>
+                            <td><?php echo $sodio_vd; ?></td>
                         </tr>
                         <tr>
-                            <td colspan="3" class="produtos-individual-info-valores"> * % Valores Diários de referência com base em uma dieta de 2.000kcal ou 8.400kJ. 
-                            **Seus valores diários podem ser maiores ou menores dependendo de suas necessidades energéticas.
-                            (***) Não contém quantidade significativa deste(s) nutriente(s). 
+                            <td colspan="3" class="produtos-individual-info-valores">  <?php echo $_valores_diarios_de_referencia; ?>
                         </tr>
                     </table>
                     <div class="produtos-individual-ingrediente">
                         <h4 class="produtos-individual-ingrediente-title">Ingredientes:</h4>
-                        <p class="produtos-individual-ingrediente-txt"> Cúrcuma longa. Alérgicos: Não contém glúten.
+                        <p class="produtos-individual-ingrediente-txt">  <?php echo $ingredientes; ?>
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <p class="produtos-individual-modo"><i>Modo de conservação:</i> Conservar em local seco e arejado.  Depois de aberto conservar preferencialmente em geladeira.Válido por 30 dias depois de aberto.</p>
+        <p class="produtos-individual-modo"><i>Modo de conservação:</i>  <?php echo $modo_de_conservacao; ?> </p>
     </main>
     <?php get_footer(); ?>

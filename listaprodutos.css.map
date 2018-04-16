@@ -1,1 +1,0 @@
-{"version":3,"sources":["listaprodutos.scss"],"names":[],"mappings":"AACI,kBACI,WAAY,CAAA","file":"listaprodutos.css","sourcesContent":[".img_produtos{\n    img{\n        height: 3rem;\n    }\n}"]}

@@ -1,3 +1,7 @@
+<?php 
+    $slideHome = get_field('primeiro_slide');
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -49,39 +53,19 @@
                 <img src="<?php echo theme_image('left-arrow.svg'); ?>" />
             </button>
             <ul class="header-slide-list slide-list">
-                <li class="header-slide-list-item">
-                    <a href="<?php echo relativeUrl('produto-tomate-seco') ?>" class="header-slide-list-item-link">
-                        <div class="header-slide-list-item-content main-slide">
-                            <p class="main-slide-frases">
-                                <span class="main-slide-frases-1">Com você e sua família nos melhores momentos</span>
-                                <span class="main-slide-frases-2">Conheça todas as nossas linhas</span>
-                            </p>
-                            <img class="main-slide-img" src="<?php echo theme_image('inttenso_prod.png'); ?>" />
-                        </div>
-                    </a>
-                </li>
-                <li class="header-slide-list-item">
-                    <a href="<?php echo relativeUrl('produtos') ?>" class="header-slide-list-item-link">
-                        <div class="header-slide-list-item-content main-slide">
-                            <p class="main-slide-frases">
-                                <span class="main-slide-frases-1">O sabor que faltava na sua mesa!</span>
-                                <span class="main-slide-frases-2">Conheça todas as nossas linhas</span>
-                            </p>
-                            <img class="main-slide-img" src="<?php echo theme_image('ketchup-slide.png'); ?>" />
-                        </div>
-                    </a>
-                </li>
-                <li class="header-slide-list-item">
-                    <a href="<?php echo relativeUrl('categoria-pimentas') ?>" class="header-slide-list-item-link">
-                        <div class="header-slide-list-item-content main-slide">
-                            <p class="main-slide-frases">
-                                <span class="main-slide-frases-1">Pimentinha, Pimenta ou Pimentão?</span>
-                                <span class="main-slide-frases-2">Conheça nosso mix de pimentas!</span>
-                            </p>
-                            <img class="main-slide-img" src="<?php echo theme_image('pimenta-slide.png'); ?>" />
-                        </div>
-                    </a>
-                </li>
+                <?php foreach($slideHome as $slide) { ?>
+                    <li data-banner="<?php echo $slide["imagem_de_fundo_slide"]; ?>" class="header-slide-list-item">
+                        <a href="<?php echo $slide["link_slide"]; ?>" class="header-slide-list-item-link">
+                            <div class="header-slide-list-item-content main-slide">
+                                <p class="main-slide-frases">
+                                    <span class="main-slide-frases-1"><?php echo $slide["frase_slide"]; ?></span>
+                                    <span class="main-slide-frases-2"><?php echo $slide["frase_no_link"]; ?></span>
+                                </p>
+                                <img class="main-slide-img" src="<?php echo $slide["imagem_no_slide"]; ?>" />
+                            </div>
+                        </a>
+                    </li>
+                <?php } ?>
             </ul>
             <button class="header-slide-button slide-button" id="right-slide">
                 <img src="<?php echo theme_image('right-arrow.svg') ?>" />

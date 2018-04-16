@@ -7,9 +7,11 @@
     $GLOBALS['isProduto'] = false;
 
     get_header('about');
+
+    $frase = get_field("frase_fale_conosco");
 ?>
     <main class="contato">
-        <p class="contato-txt">Entre em contato com a Inttenso Foods e tire as suas dúvidas! <br/><b>Preencha o formulário abaixo ou ligue para (37) 3421 – 6600. </b></p>
+        <p class="contato-txt"><?php echo $frase ?></p>
         <form class="contato-form">
             <input type="text" class="contato-form-input contato-form-input-100" placeholder="NOME" />
             <input type="text" class="contato-form-input contato-form-input-50" placeholder="EMAIL" />

@@ -7,18 +7,25 @@
     $GLOBALS['isProduto'] = false;
 
     get_header('about');
+
+    $texto_empresa = get_field("texto_empresa");
+    $imagem = get_field("imagem_empresa");
+    $missao = get_field("missao");
+    $visao = get_field("texto_visao");
+    $valores = get_field("texto_valores");
 ?>
     <main>
         <section class="nossaHistoria">
             <div class="nossaHistoria-hist">
                 <h2 class="nossaHistoria-hist-title">Nossa história</h2>
                 <h3 class="nossaHistoria-hist-title1">Viva inttensamente esses sabores!</h3>
-                <p class="nossaHistoria-hist-txt">O Inttenso Foods nasceu com a missão de proporcionar e agregar valores às experiências culinárias. Com o amor em produzir cafés, decidimos levar mais sabor a tantos lares. Desta forma, o Inttenso Foods produz os mais diversos produtos, buscando novas formas agregar valor as experiências culinárias.</p>
+                <p class="nossaHistoria-hist-txt"><?php echo $texto_empresa; ?></p>
+                <!--<p class="nossaHistoria-hist-txt">O Inttenso Foods nasceu com a missão de proporcionar e agregar valores às experiências culinárias. Com o amor em produzir cafés, decidimos levar mais sabor a tantos lares. Desta forma, o Inttenso Foods produz os mais diversos produtos, buscando novas formas agregar valor as experiências culinárias.</p>
                 <p class="nossaHistoria-hist-txt">Seja com os condimentos, molhos, pimentas, encartelados ou temperos, todos os cinco sentidos serão explorados através de sabores e aromas únicos.</p>
-                <p class="nossaHistoria-hist-txt">Com produtos fabricados com matérias – primas selecionadas, o Inttenso Foods preocupa-se com o alto padrão, qualificação e segurança na produção de seu mix. Em todos os momentos do seu dia, compartilhe bons momentos, compartilhe Inttenso Foods.</p>
+                <p class="nossaHistoria-hist-txt">Com produtos fabricados com matérias – primas selecionadas, o Inttenso Foods preocupa-se com o alto padrão, qualificação e segurança na produção de seu mix. Em todos os momentos do seu dia, compartilhe bons momentos, compartilhe Inttenso Foods.</p>-->
             </div>
             <figure class="nossaHistoria-img">
-                <img src="<?php echo theme_image('quemSomos.jpg') ?>" />
+                <img src="<?php echo $imagem["url"]; ?>" />
             </figure>
         </section>
         <section class="qualidades">

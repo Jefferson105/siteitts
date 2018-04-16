@@ -3,7 +3,7 @@
         Template Name: Receitas
     */
 
-    get_header('about');
+    get_header('receita');
 ?>
     <section class="receitas">
         <p class="receitas-txt">Sabores surpreendentes, receitas que inspiram! Conheça nossas receitas e descubra novas formas de encantar.</p>
@@ -25,7 +25,7 @@
             <div class="cards">
             <a class="cards-conteudo" href="<?php echo relativeUrl('receita-beijinho') ?>">
                     <figure class="cards-conteudo-pratos">
-                        <img src="<?php echo theme_image('receitasa/beijinho-p.jpg') ?>" class="cards-conteudo-pratos-comidas">
+                        <img src="<?php echo theme_image('receitas/beijinho-p.jpg') ?>" class="cards-conteudo-pratos-comidas">
                     </figure>
                     <div class="cards-conteudo-text">
                         <h3 class="cards-conteudo-text-title">Beijinho</h3>

@@ -3,6 +3,9 @@
         Template Name: Receita Molho Pesto
     */
 
+    $GLOBALS['h1'] = "Receita Molho Pesto";
+    $GLOBALS['isProduto'] = false;
+
     get_header('receita');
 ?>
     <main>

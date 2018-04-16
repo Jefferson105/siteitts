@@ -3,6 +3,9 @@
         Template Name: Produto Cravo India
     */
 
+    $GLOBALS['h1'] = "Cravo da Índia";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
 <main>

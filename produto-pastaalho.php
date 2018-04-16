@@ -3,6 +3,9 @@
         Template Name: Produto Pasta Alho
     */
 
+    $GLOBALS['h1'] = "Tempero Pasta de Alho";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
 <main>

@@ -3,6 +3,9 @@
         Template Name: Produto Pimenta Malagueta
     */
 
+    $GLOBALS['h1'] = "Pimenta Malagueta";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
 <main>

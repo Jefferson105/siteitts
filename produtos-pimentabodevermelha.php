@@ -3,6 +3,9 @@
         Template Name: Produto Pimenta Bode Vermelha
     */
 
+    $GLOBALS['h1'] = "Pimenta Bode Vermelha";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
 <main>

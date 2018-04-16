@@ -3,6 +3,9 @@
         Template Name: Produto Mostarda
     */
 
+    $GLOBALS['h1'] = "Mostarda Amarela";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
 <main>

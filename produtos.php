@@ -3,6 +3,9 @@
         Template Name: Produtos
     */
 
+    $GLOBALS['h1'] = "Produtos";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
     <main>
@@ -41,7 +44,7 @@
                 </a>
             </li>
             <li class="produtos-list-item">
-                <a class="produtos-list-item-link"  href="<?php echo relativeUrl('categorias-especias-2') ?>">
+                <a class="produtos-list-item-link"  href="<?php echo relativeUrl('condimentos-especiais-2') ?>">
                     <figure class="produtos-list-item-container">
                         <img src="<?php echo theme_image('produtos/condimentos-especiais.png') ?>" alt="" class="produtos-list-item-img">
                         <figcaption class="produtos-list-item-caption">Condimentos especiais</figcaption>

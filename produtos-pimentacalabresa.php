@@ -3,6 +3,9 @@
         Template Name: Produto Pimenta Calabresa
     */
 
+    $GLOBALS['h1'] = "Pimenta Calabresa";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
 <main>

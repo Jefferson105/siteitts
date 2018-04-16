@@ -3,6 +3,9 @@
         Template Name: Categoria Encartelados
     */
 
+    $GLOBALS['h1'] = "Encartelados";
+    $GLOBALS['isProduto'] = false;
+
     get_header('about');
 ?>
     <main>

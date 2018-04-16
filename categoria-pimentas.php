@@ -3,6 +3,9 @@
         Template Name: Categoria Pimentas
     */
 
+    $GLOBALS['h1'] = "Pimentas";
+    $GLOBALS['isProduto'] = false;
+
     get_header('about');
 ?>
     <main>
@@ -25,7 +28,7 @@
             <li class="produtos-list-item">
                 <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-bode-amarela') ?>">
                     <figure class="produtos-list-item-container">
-                        <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/Pimenta-bode-30ml.png') ?>" />
+                        <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/Pimenta bode 30ml.png') ?>" />
                         <figcaption>
                             <p><strong>Pimenta Bode Amarela 400g, 180g, 60g, 30g</strong></p>
                             <p>Pimenta Bode Amarela 400g | 7898955459713</p>
@@ -39,7 +42,7 @@
             <li class="produtos-list-item">
                 <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-pimenta-bode-vermelha') ?>">
                     <figure class="produtos-list-item-container">
-                        <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/PIMENTA-DE-BODE-400.png') ?>" />
+                        <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/PIMENTA DE BODE 400.png') ?>" />
                         <figcaption>
                             <p><strong>Pimenta Bode Vermelha 400g, 180g, 60g, 30g</strong></p>
                             <p>Pimenta Bode Vermelha 400g | 7898955459720</p>
@@ -53,7 +56,7 @@
             <li class="produtos-list-item">
                 <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-pimenta-cumarim-amarela') ?>">
                     <figure class="produtos-list-item-container">
-                        <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/PIMENTA-CUMARIM-AMARELA-400.png') ?>" />
+                        <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/PIMENTA CUMARIM AMARELA 400.png') ?>" />
                         <figcaption>
                             <p><strong>Pimenta Cumarim do Pará Amarela 400g, 180g, 60g, 30g</strong></p>
                             <p>Pimenta Cumarim do Pará Amarela 400g | 7898955459737</p>
@@ -67,7 +70,7 @@
             <li class="produtos-list-item">
                 <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-pimenta-cumarim-vermelha') ?>">
                     <figure class="produtos-list-item-container">
-                        <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/PIMENTA-CUMARIM-VER-400.png') ?>" />
+                        <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/PIMENTA CUMARIM VER 400.png') ?>" />
                         <figcaption>
                             <p><strong>Pimenta Cumarim Vermelha 400g, 180g, 60g, 30g</strong></p>
                             <p>Pimenta Cumarim Vermelha 400g | 7898955459744 | unidade</p>
@@ -81,7 +84,7 @@
             <li class="produtos-list-item">
                 <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-pimenta-malagueta') ?>">
                     <figure class="produtos-list-item-container">
-                        <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/PIMENTA-MALAGUETA-400.png') ?>" />
+                        <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/PIMENTA MALAGUETA 400.png') ?>" />
                         <figcaption>
                             <p><strong>Pimenta Malagueta 400g, 180g, 60g, 30g</strong></p>
                             <p>Pimenta Malagueta 400g |7898955459706</p>

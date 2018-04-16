@@ -3,6 +3,9 @@
         Template Name: Receita Guacamole
     */
 
+    $GLOBALS['h1'] = "Receita Guacamole";
+    $GLOBALS['isProduto'] = false;
+
     get_header('receita');
 ?>
     <main>

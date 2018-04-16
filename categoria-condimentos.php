@@ -3,6 +3,9 @@
         Template Name: Categoria Condimentos
     */
 
+    $GLOBALS['h1'] = "Condimentos";
+    $GLOBALS['isProduto'] = false;
+
     get_header('about');
 ?>
     <main>

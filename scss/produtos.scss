@@ -14,8 +14,14 @@
         flex-wrap: wrap;
         margin: 2rem auto;
         align-items: baseline;
+        @media (max-width: nth($break-point, 3)) { 
+            flex-direction: column;
+        }
         &-item {
             width: 33%;
+            @media (max-width: nth($break-point, 3)) { 
+                width: 100%;
+            }
             margin: 2rem auto;
             &-link {
                 display: block;
@@ -48,9 +54,16 @@
     &-individual {
         display: flex;
         justify-content: center;
+        @media (max-width: nth($break-point, 3)) {
+            flex-direction: column;
+        }
         &-img {
             text-align: center;
             margin-right: 1rem;
+            position: relative;
+            @media (max-width: nth($break-point, 3)) { 
+                margin-right: 0;
+            }
             &-prod {
                 height: 25rem;
                 display: block;
@@ -64,11 +77,20 @@
                 color: #FFFF0F;
                 position: relative;
                 bottom: 15%;
+                @media (max-width: nth($break-point, 3)) {
+                    position: absolute; 
+                    bottom: 40px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
             }
         }
         &-info {
             &-container {
                 width: 600px;
+                @media (max-width: nth($break-point, 4)) {
+                    width: 100%;
+                }
             }
             &-nome {
                 color: #FFF;

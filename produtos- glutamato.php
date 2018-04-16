@@ -3,6 +3,9 @@
         Template Name: Produto Glumato
     */
 
+    $GLOBALS['h1'] = "Glumato Monossódico";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
 <main>

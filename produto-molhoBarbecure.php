@@ -3,10 +3,13 @@
         Template Name: Produto Molho Barbecue
     */
 
+    $GLOBALS['h1'] = "Molho Barbecue";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
 <main>
-        <p class="produtos-breadcrumb"><span>produtos</span> | <span>Molhos</span> | <span>Barbecure inttenso foods</span></p>
+        <p class="produtos-breadcrumb"><span>produtos</span> | <span>Molhos</span> | <span>Barbecue inttenso foods</span></p>
         <section class="produtos-individual">
             <figure class="produtos-individual-img">
                 <img class="produtos-individual-img-prod" src="<?php echo theme_image('produtos/Molho barbecue 270g.png') ?>" />
@@ -18,7 +21,7 @@
             </figure>
             <div class="produtos-individual-info">
                 <div class="produtos-individual-info-container"> 
-                    <h3 class="produtos-individual-info-nome">Molho Barbecure 270g</h3>
+                    <h3 class="produtos-individual-info-nome">Molho Barbecue 270g</h3>
                     <p class="produtos-individual-info-txt">Conservar em local seco e arejado. Depois de aberto conservar preferencialmente
                     em geladeira. Válido por 30 dias depois de aberto.
                     </p>

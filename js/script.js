@@ -1,8 +1,9 @@
 $(document).ready(function() {
+    var $itensSlide = $(".header-slide-list-item");
     var slideHeaderInfo = {
-        length: $("#slide-header li").length - 1,
+        length: $itensSlide.length - 1,
         current: 0,
-        arrImg: ["img/fundo_slide0.jpg", "img/fundo_slide1.jpg", "img/fundo_slide2.jpg"],
+        arrImg: ["http://inttensofoods.com.br/wp-content/themes/inttenso/img/fundo_slide0.jpg", "http://inttensofoods.com.br/wp-content/themes/inttenso/img/fundo_slide1.jpg", "http://inttensofoods.com.br/wp-content/themes/inttenso/img/fundo_slide2.jpg"],
         time: 5000
     }
 
@@ -10,7 +11,6 @@ $(document).ready(function() {
         $("#right-slide").click();    
     }, slideHeaderInfo.time); 
 
-    var $itensSlide = $(".header-slide-list-item");
     $("#left-slide").click(function() {
         slideHeaderInfo.current--;
 
@@ -26,6 +26,7 @@ $(document).ready(function() {
         playSlideHeader = setInterval(function() {
             $("#right-slide").click();    
         }, slideHeaderInfo.time); 
+
         $("#banner-slider").fadeOut(150, function() {
             $(this).attr("src", slideHeaderInfo.arrImg[slideHeaderInfo.current]).fadeIn(150);
         });
@@ -46,8 +47,17 @@ $(document).ready(function() {
         playSlideHeader = setInterval(function() {
             $("#right-slide").click();    
         }, slideHeaderInfo.time); 
+        
         $("#banner-slider").fadeOut(300, function() {
             $(this).attr("src", slideHeaderInfo.arrImg[slideHeaderInfo.current]).fadeIn(300);
         });
+    });
+
+    $(".header-menu-mobile").click(function() {
+        $(".header-menu-list").addClass("visible");
+    });
+
+    $(".header-menu-list-item.back").click(function() {
+        $(".header-menu-list").removeClass("visible");
     });
 });

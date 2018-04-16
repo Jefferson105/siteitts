@@ -3,6 +3,9 @@
         Template Name: Produto Bicarbonato
     */
 
+    $GLOBALS['h1'] = "Bicarbonato de Sódio";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
     <main>

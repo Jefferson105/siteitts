@@ -3,6 +3,9 @@
         Template Name: Produto Shoyu
     */
 
+    $GLOBALS['h1'] = "Molho Shoyu";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
 <main>

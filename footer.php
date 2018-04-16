@@ -13,7 +13,7 @@
         </address>
         <ul class="footer-menu">
             <li class="footer-menu-tit"><h4 class="footer-title">Menu</h4></li>
-            <li class="footer-menu-item"><a href="<?php echo relativeUrl() ?>">Home</a></li>
+            <li class="footer-menu-item"><a href="<?php echo relativeUrl('') ?>">Home</a></li>
             <li class="footer-menu-item"><a href="<?php echo relativeUrl('empresa') ?>">Empresa</a></li>
             <li class="footer-menu-item"><a href="<?php echo relativeUrl('produtos') ?>">Produtos</a></li>
             <li class="footer-menu-item"><a href="<?php echo relativeUrl('receitas') ?>">Receitas</a></li>
@@ -21,7 +21,7 @@
         </ul>
         <div class="footer-social">
             <h4 class="footer-title">Rede Social</h4>
-            <a href="https://www.facebook.com/inttensofoods/" target="_blank"><img class="footer-social-imgFace" src="img/facebook-logo.svg" /></a>
+            <a href="https://www.facebook.com/inttensofoods/" target="_blank"><img class="footer-social-imgFace" src="<?php echo theme_image('facebook-logo.svg') ?>" /></a>
         </div>
     </div>
     <p class="footer-copy">2018 Copyright todos os direitos reservados. Desenvolvido por Unick360</p>

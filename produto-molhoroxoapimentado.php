@@ -3,6 +3,9 @@
         Template Name: Produto Molho Roxo Apimentado
     */
 
+    $GLOBALS['h1'] = "Molho de Alho Roxo Apimentado";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
 <main>

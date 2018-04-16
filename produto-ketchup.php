@@ -3,6 +3,9 @@
         Template Name: Produto Ketchup
     */
 
+    $GLOBALS['h1'] = "Ketchup Tradicional";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
 <main>

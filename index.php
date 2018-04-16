@@ -28,38 +28,46 @@
         <div class="container">
             <h2 class="produtos-title">Produtos</h2>
             <nav class="produtos-slide slide">
-                <button class="produtos-slide-button slide-button">
-                    <img src="<?php echo theme_image('left-arrow.svg') ?>" />
-                </button>
+                <!--<button class="produtos-slide-button slide-button">
+                    <img src="<?php //echo theme_image('left-arrow.svg') ?>" />
+                </button>-->
                 <ul class="produtos-slide-list slide-list">
                     <li class="produtos-slide-list-item">
-                        <figure class="produtos-slide-list-item-container">
-                            <img class="produtos-slide-list-item-container-img" alt="Ketchup 370ml" src="<?php echo theme_image('produtos/ketchup_370ml.png') ?>">
-                            <figcaption class="produtos-slide-list-item-container-caption">Ketchup 370ml</figcaption>
-                        </figure>
+                        <a href="<?php echo relativeUrl('produto-ketchup') ?>" class="link-container">
+                            <figure class="produtos-slide-list-item-container">
+                                <img class="produtos-slide-list-item-container-img" alt="Ketchup 370ml" src="<?php echo theme_image('produtos/ketchup_370ml.png') ?>">
+                                <figcaption class="produtos-slide-list-item-container-caption">Ketchup 370ml</figcaption>
+                            </figure>
+                        </a>
                     </li>
                     <li class="produtos-slide-list-item">
-                        <figcaption class="produtos-slide-list-item-container">
-                            <img src="<?php echo theme_image('produtos/pimenta_biquinho.png') ?>" alt="Pimenta biquinho" class="produtos-slide-list-item-container-img">
-                            <figcaption class="produtos-slide-list-item-container-caption">Pimenta biquinho 60ml</figcaption>
-                        </figcaption>
+                        <a href="<?php echo relativeUrl('produto-pimenta-biquinho') ?>" class="link-container">
+                            <figcaption class="produtos-slide-list-item-container">
+                                <img src="<?php echo theme_image('produtos/pimenta_biquinho.png') ?>" alt="Pimenta biquinho" class="produtos-slide-list-item-container-img">
+                                <figcaption class="produtos-slide-list-item-container-caption">Pimenta biquinho 60ml</figcaption>
+                            </figcaption>
+                        </a>    
                     </li>
                     <li class="produtos-slide-list-item">
-                        <figcaption class="produtos-slide-list-item-container">
-                            <img src="<?php echo theme_image('produtos/pasta_alho.png') ?>" alt="Pasta de alho" class="produtos-slide-list-item-container-img">
-                            <figcaption class="produtos-slide-list-item-container-caption">Pasta de alho 500g</figcaption>
-                        </figcaption>
+                        <a href="<?php echo relativeUrl('produto-pasta-de-alho') ?>" class="link-container">
+                            <figcaption class="produtos-slide-list-item-container">
+                                <img src="<?php echo theme_image('produtos/pasta_alho.png') ?>" alt="Pasta de alho" class="produtos-slide-list-item-container-img">
+                                <figcaption class="produtos-slide-list-item-container-caption">Pasta de alho 500g</figcaption>
+                            </figcaption>
+                        </a>
                     </li>
                     <li class="produtos-slide-list-item">
-                        <figcaption class="produtos-slide-list-item-container">
-                            <img src="<?php echo theme_image('produtos/pimenta_marela.png') ?>" alt="Pimenta amarela" class="produtos-slide-list-item-container-img">
-                            <figcaption class="produtos-slide-list-item-container-caption">Pimenta cumarim 180g</figcaption>
-                        </figcaption>
+                        <a href="<?php echo relativeUrl('produto-pimenta-cumarim-amarela') ?>" class="link-container">
+                            <figcaption class="produtos-slide-list-item-container">
+                                <img src="<?php echo theme_image('produtos/pimenta_marela.png') ?>" alt="Pimenta amarela" class="produtos-slide-list-item-container-img">
+                                <figcaption class="produtos-slide-list-item-container-caption">Pimenta cumarim 180g</figcaption>
+                            </figcaption>
+                        </a>    
                     </li>
                 </ul>
-                <button class="produtos-slide-button slide-button">
-                    <img src="<?php echo theme_image('right-arrow.svg') ?>" />
-                </button>
+                <!--<button class="produtos-slide-button slide-button">
+                    <img src="<?php //echo theme_image('right-arrow.svg') ?>" />
+                </button>-->
             </nav>
         </div>
     </section>

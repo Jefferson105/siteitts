@@ -3,6 +3,9 @@
         Template Name: Categoria Condimentos Especiais
     */
 
+    $GLOBALS['h1'] = "Condimentos Especiais";
+    $GLOBALS['isProduto'] = false;
+
     get_header('about');
 ?>
     <main>

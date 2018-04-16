@@ -3,6 +3,9 @@
         Template Name: Pimento Moída
     */
 
+    $GLOBALS['h1'] = "Pimenta do Reino Moída";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
 <main>

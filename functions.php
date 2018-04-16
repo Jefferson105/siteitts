@@ -2,8 +2,10 @@
 
     //add_theme_suport('menus');
 
+    define('ACF_EARLY_ACCESS', '5');
+
     function inttenso_script_enqueue() {
-        wp_enqueue_script("customjs", get_template_directory_uri() . "/js/jquery-3.3.1.js", "1.0.0", true);
+        //wp_enqueue_script("customjs", get_template_directory_uri() . "/js/jquery-3.3.1.js", "1.0.0", true);
         wp_enqueue_script("customjs", get_template_directory_uri() . "/js/script.js", "1.0.0", true);
         wp_enqueue_style("cumtomstyle", get_template_directory_uri() . "/style.css", array(), "1.0.0", "all");
     }

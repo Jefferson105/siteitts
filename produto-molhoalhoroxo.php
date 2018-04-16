@@ -3,10 +3,13 @@
         Template Name: Produto Molho Alho Roxo 
     */
 
+    $GLOBALS['h1'] = "Molho Alho Roxo";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
 <main>
-        <p class="produtos-breadcrumb"><span>produtos</span> | <span>Molhos</span> | <span>Alho inttenso foods</span></p>
+        <p class="produtos-breadcrumb"><span>produtos</span> | <span>Molhos</span> | <span>Molho Alho Roxo inttenso foods</span></p>
         <section class="produtos-individual">
             <figure class="produtos-individual-img">
                 <img class="produtos-individual-img-prod" src="<?php echo theme_image('produtos/MOLHO DE ALHO 150.png') ?>" />

@@ -3,6 +3,9 @@
         Template Name: Produto Colorifico
     */
 
+    $GLOBALS['h1'] = "Colorífico";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
     <main>

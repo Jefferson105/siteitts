@@ -3,10 +3,13 @@
         Template Name: Produto Pimenta Cumarim Vermelha
     */
 
+    $GLOBALS['h1'] = "Pimenta Cumarim do Pará Vermelha";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
 <main>
-        <p class="produtos-breadcrumb"><span>produtos</span> | <span>Molhos</span> | <span>Pimenta Cumarim do Pará Vermelha foods</span></p>
+        <p class="produtos-breadcrumb"><span>produtos</span> | <span>Molhos</span> | <span>Pimenta Cumarim do Pará Vermelha inttenso foods</span></p>
         <section class="produtos-individual">
             <figure class="produtos-individual-img">
                 <img class="produtos-individual-img-prod" src="<?php echo theme_image('produtos/PIMENTA CUMARIM VERM 180.png') ?>" />

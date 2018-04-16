@@ -3,6 +3,9 @@
         Template Name: Receita Strogonoff Carne
     */
 
+    $GLOBALS['h1'] = "Receita Strogonoff Carne";
+    $GLOBALS['isProduto'] = false;
+
     get_header('receita');
 ?>
     <main>

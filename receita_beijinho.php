@@ -3,6 +3,9 @@
         Template Name: Receita Beijinho
     */
 
+    $GLOBALS['h1'] = "Receita Beijinho";
+    $GLOBALS['isProduto'] = false;
+
     get_header('receita');
 ?>
     <main>

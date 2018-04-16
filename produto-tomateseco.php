@@ -3,6 +3,9 @@
         Template Name: Produto Tomate Seco
     */
 
+    $GLOBALS['h1'] = "Tomate Seco";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
 <main>

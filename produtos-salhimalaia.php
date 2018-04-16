@@ -3,6 +3,9 @@
         Template Name: Produto Sal Himalaia
     */
 
+    $GLOBALS['h1'] = "Sal Rosa do Himalaia";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
 <main>

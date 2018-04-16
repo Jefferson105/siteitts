@@ -3,6 +3,9 @@
         Template Name: Receita Bolo Laranja Camomila
     */
 
+    $GLOBALS['h1'] = "Receita Bolo de Laranja com Camomila";
+    $GLOBALS['isProduto'] = false;
+
     get_header('receita');
 ?>
     <main>

@@ -3,6 +3,9 @@
         Template Name: Categorias Produtos
     */
 
+    $GLOBALS['h1'] = "Categorias de Produtos";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
     <main>

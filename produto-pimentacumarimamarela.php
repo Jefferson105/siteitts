@@ -3,6 +3,9 @@
         Template Name: Produto Pimenta Cumarim Amarela
     */
 
+    $GLOBALS['h1'] = "Pimenta Cumarim do Pará Amarela";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
 <main>

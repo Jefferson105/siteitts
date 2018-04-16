@@ -3,24 +3,11 @@
         Template Name: Produto Sal Limão
     */
 
+    $GLOBALS['h1'] = "Sal com limão";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
-<body>
-    <header class="header">
-        <nav class="header-menu">
-            <ul class="header-menu-list">
-                <li class="header-menu-list-item"><a href="empresa.php">Empresa</a></li>
-                <li class="header-menu-list-item"><a href="produtos.php">Produtos</a></li>
-                <li class="header-menu-list-item logo"><a href="index.php"><img src="<?php echo theme_image('logo.png') ?>" /></a></li>
-                <li class="header-menu-list-item"><a href="receitas.php">Receitas</a></li>
-                <li class="header-menu-list-item"><a href="contato.php">Fale conosco</a></li>
-            </ul>
-        </nav>
-        <figure class="header-banner">
-            <img src="<?php echo theme_image('header_other.png') ?>" />
-        </figure>
-        <h1 class="produtos-h1">Sal com limão Inttenso foods</h1>
-    </header>
 <main>
         <p class="produtos-breadcrumb"><span>produtos</span> | <span>Condimentos</span> | <span>Sal com limão Inttenso foods</span></p>
         <section class="produtos-individual">

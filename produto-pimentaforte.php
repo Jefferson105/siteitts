@@ -3,6 +3,9 @@
         Template Name: Produto Pimenta Forte
     */
 
+    $GLOBALS['h1'] = "Pimenta Forte";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
 <main>

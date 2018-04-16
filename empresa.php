@@ -3,6 +3,9 @@
         Template Name: Empresa
     */
 
+    $GLOBALS['h1'] = "Empresa";
+    $GLOBALS['isProduto'] = false;
+
     get_header('about');
 ?>
     <main>
@@ -30,23 +33,7 @@
                 </div>
                 <div class="qualidades-container-item">
                     <H4 class="qualidades-container-item-title">VALORES</H4>
-                    <ul class="qualidades-container-item-list">
-                        <li>Compromisso</li>
-                        <li>Dedicação</li>
-                        <li>Determinação</li>
-                        <li>Diálogo</li>
-                        <li>Integridade</li>
-                        <li>Luta</li>
-                        <li>Motivação</li>
-                        <li>Objetividade</li>
-                        <li>Persistência</li>
-                        <li>Planejamento</li>
-                        <li>Qualificação</li>
-                        <li>Responsabilidade</li>
-                        <li>Resultados</li>
-                        <li>Segurança</li>
-                        <li>Trabalho</li>
-                    </ul>
+                    <p class="qualidades-container-item-txt">Compromisso, Dedicação, Determinação, Diálogo, Integridade, Luta, Motivação, Objetividade, Persistência, Planejamento, Qualificação, Responsabilidade, Resultados, Segurança, Trabalho</p>
                 </div>
             </div>
         </section>

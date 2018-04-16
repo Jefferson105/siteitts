@@ -3,6 +3,9 @@
         Template Name: Produto Molho Ingles
     */
 
+    $GLOBALS['h1'] = "Molho Inglês";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
 <main>

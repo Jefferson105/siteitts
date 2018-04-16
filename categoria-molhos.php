@@ -3,6 +3,9 @@
         Template Name: Categoria Molhos
     */
 
+    $GLOBALS['h1'] = "Molhos";
+    $GLOBALS['isProduto'] = false;
+
     get_header('about');
 ?>
     <main>
@@ -11,7 +14,7 @@
             <li class="produtos-list-item">
             <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-molho-alho-roxo') ?>">
                 <figure class="produtos-list-item-container">
-                    <img class="produtos-list-item-img" src="<?php echo theme_image('prdutodos/Molho-de-alho-roxo-900ml.png') ?>" />
+                    <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/Molho de alho roxo 900ml.png') ?>" />
                     <figcaption>
                         <p><strong>Molho de Alho Roxo 150ml</strong></p>
                         <p>Molho de Alho Roxo 900ml | 7898955459607 </p>
@@ -23,7 +26,7 @@
             <li class="produtos-list-item">
             <a class="produtos-list-item-link"href="<?php echo relativeUrl('produto-molho-barbecure') ?>">
                 <figure class="produtos-list-item-container">
-                    <img class="produtos-list-item-img" src="<?php echo theme_image('prdutodos/Molho-barbecue-270g.png') ?>" />
+                    <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/Molho barbecue 270g.png') ?>" />
                     <figcaption>
                         <p><strong>Molho Barbecure 270g</strong></p>
                         <p>7898955459584</p>
@@ -34,7 +37,7 @@
             <li class="produtos-list-item">
             <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-molho-ingles') ?>">
                 <figure class="produtos-list-item-container">
-                    <img class="produtos-list-item-img" src="<?php echo theme_image('prdutodos/Molho-ingles-900ml.png') ?>" />
+                    <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/Molho ingles 900ml.png') ?>" />
                     <figcaption>
                         <p><strong>Molho Inglês 150ml e 900ml</strong></p>
                         <p>Molho Inglês 900ml | 7898955459614</p>
@@ -46,7 +49,7 @@
             <li class="produtos-list-item">
             <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-alho-roxo-apimentado') ?>">
                 <figure class="produtos-list-item-container">
-                    <img class="produtos-list-item-img" src="<?php echo theme_image('prdutodos/MOLHO-DE-ALHO-ROXO-APIMNETADO-150.png') ?>" />
+                    <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/Molho de alho roxo 900ml.png') ?>" />
                     <figcaption>
                         <p><strong>Molho de Alho Roxo Apimentado 150ml e 900ml</strong></p>
                         <p>Molho de Alho Roxo Apimentado 900 ml | 9898955459621</p>
@@ -58,7 +61,7 @@
             <li class="produtos-list-item">
             <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-pimenta-extra-forte') ?>">
                 <figure class="produtos-list-item-container">
-                    <img class="produtos-list-item-img" src="<?php echo theme_image('prdutodos/Molho-de-pimenta-EXTRA-forte-900ml.png') ?>" />
+                    <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/MOLHO DE PIMENTA EXTRA  FORT 150.png') ?>" />
                     <figcaption>
                         <p><strong>Molho de Pimenta Extra Forte 150ml e 900ml</strong></p>
                         <p>Molho de Pimenta Extra Forte 900ml | 7898955459638</p>
@@ -70,7 +73,7 @@
             <li class="produtos-list-item">
             <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-pimenta-forte') ?>">
                 <figure class="produtos-list-item-container">
-                    <img class="produtos-list-item-img" src="<?php echo theme_image('prdutodos/Molho-de-pimenta-forte-900ml.png') ?>" />
+                    <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/Molho de pimenta forte 900ml.png') ?>" />
                     <figcaption>
                         <p><strong>Molho de Pimenta Forte 150ml e 900ml</strong></p>
                         <p>Molho de Pimenta Forte 900ml | 7898955459652</p>
@@ -82,7 +85,7 @@
             <li class="produtos-list-item">
             <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-pimenta-suave') ?>">
                 <figure class="produtos-list-item-container">
-                    <img class="produtos-list-item-img" src="<?php echo theme_image('prdutodos/Molho-de-oimenta-suave-900ml.png') ?>" />
+                    <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/Molho de oimenta suave 900ml.png') ?>" />
                     <figcaption>
                         <p><strong>Molho de Pimenta Suave 150ml e 900ml</strong></p>
                         <p>Molho de Pimenta Suave 900ml | 7898955459645</p>
@@ -94,7 +97,7 @@
             <li class="produtos-list-item">
             <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-shoyu') ?>">
                 <figure class="produtos-list-item-container">
-                    <img class="produtos-list-item-img" src="<?php echo theme_image('prdutodos/MOLHO-SHOYO-150.png') ?>" />
+                    <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/MOLHO SHOYO 150.png') ?>" />
                     <figcaption>
                         <p><strong>Molho Shoyu 150ml e 900ml</strong></p>
                         <p>Molho Shoyu 900ml | 7898955459669</p>

@@ -3,6 +3,9 @@
         Template Name: Receita Tomate Recheado
     */
 
+    $GLOBALS['h1'] = "Receita Tomate Recheado";
+    $GLOBALS['isProduto'] = false;
+
     get_header('receita');
 ?>
     <main>

@@ -3,6 +3,9 @@
         Template Name: Produto Pimenta Biquinho
     */
 
+    $GLOBALS['h1'] = "Pimenta Biquinho";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
 <main>

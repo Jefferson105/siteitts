@@ -22,8 +22,10 @@ gulp.task("sass:compile", () => {
         lineNumbers: true,
         sourcemap: true
     }) 
+    .pipe(autoprefixer())
     .pipe(sourcemaps.write("."))
-    .pipe(gulp.dest(pathto.css))
+    //.pipe(gulp.dest(pathto.css))
+    .pipe(gulp.dest('.'))
     .pipe(sync.stream(sync.stream()));
 });
 
@@ -33,7 +35,7 @@ gulp.task("sass:watch", () => {
 
 gulp.task("serve", () => {
     sync.init({
-        proxy: "http://inttensofoods.com.br"
+        proxy: "http://localhost:8080/wordpress/"
     });
 
     gulp.watch(glob.sass, ["sass:compile"]);

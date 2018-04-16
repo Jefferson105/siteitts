@@ -1,6 +1,6 @@
 $red-text: #D2161C;
 
-$break-point: 1440px 1367px 1009px 778px;
+$break-point: 1440px 1367px 1009px 767px;
 
 %fill-width {
     width: 100vw;
@@ -21,12 +21,19 @@ $break-point: 1440px 1367px 1009px 778px;
     transform: translateX(-50%);
 }
 
+%showMobile {
+    display: none;
+    @media (max-width: nth($break-point, 3)) {
+        display: block;
+    }
+}
+
 $body-width: 1170px;
 
 @mixin star($size, $top) {
     content: "";
     position: absolute;
-    background-image: url("../img/star.svg");
+    background-image: url("img/star.svg");
     background-size: $size $size;
     width: $size;
     height: $size;

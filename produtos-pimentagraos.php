@@ -3,6 +3,9 @@
         Template Name: Produtos Pimenta Grão
     */
 
+    $GLOBALS['h1'] = "Pimenta do Reino em Grãos";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
 <main>

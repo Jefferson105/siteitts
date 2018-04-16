@@ -3,6 +3,9 @@
         Template Name: Produto Canela
     */
 
+    $GLOBALS['h1'] = "Canela em Pó";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
     <main>

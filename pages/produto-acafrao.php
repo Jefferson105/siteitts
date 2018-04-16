@@ -5,22 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Inttenso Foods</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/produtos.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/produtos.css" />
+    <script src="../js/jquery-3.3.1.js"></script>
+    <script src="../js/script.js"></script>
 </head>
 <body>
     <header class="header">
         <nav class="header-menu">
+            <a class="header-menu-logo" href="index.php">
+                <img src="../img/logo.png" />
+            </a>
+            <img class="header-menu-mobile" src="../img/menu.svg" />
             <ul class="header-menu-list">
-                <li class="header-menu-list-item"><a href="empresa.php">Empresa</a></li>
-                <li class="header-menu-list-item"><a href="produtos.php">Produtos</a></li>
-                <li class="header-menu-list-item logo"><a href="index.php"><img src="img/logo.png" /></a></li>
-                <li class="header-menu-list-item"><a href="receitas.php">Receitas</a></li>
-                <li class="header-menu-list-item"><a href="contato.php">Fale conosco</a></li>
+                <li class="header-menu-list-item back">
+                    <button><img src="../img/left-arrow.svg" /></button>
+                    <p>Back</p>
+                </li>
+                <li class="header-menu-list-item home">
+                    <a href="index.php">Home</a>
+                </li>
+                <li class="header-menu-list-item">
+                    <a href="empresa.php">Empresa</a>
+                </li>
+                <li class="header-menu-list-item">
+                    <a href="produtos.php">Produtos</a>
+                </li>
+                <li class="header-menu-list-item logo">
+                    <a href="index.php">
+                        <img src="../img/logo.png" />
+                    </a>
+                </li>
+                <li class="header-menu-list-item">
+                    <a href="receitas.php">Receitas</a>
+                </li>
+                <li class="header-menu-list-item">
+                    <a href="contato.php">Fale conosco</a>
+                </li>
             </ul>
         </nav>
         <figure class="header-banner">
-            <img src="img/header_other.png" />
+            <img src="../img/header_other.png" />
         </figure>
         <h1 class="produtos-h1">Açafrão Inttenso foods</h1>
     </header>
@@ -28,8 +53,8 @@
         <p class="produtos-breadcrumb"><span>produtos</span> | <span>Condimentos</span> | <span>Açafrão Inttenso foods</span></p>
         <section class="produtos-individual">
             <figure class="produtos-individual-img">
-                <img class="produtos-individual-img-prod" src="img/produtos/condimento_acafrao.png" />
-                <img class="produtos-individual-img-info" src="img/fundo_produto.png" />
+                <img class="produtos-individual-img-prod" src="../img/produtos/condimento_acafrao.png" />
+                <img class="produtos-individual-img-info" src="../img/fundo_produto.png" />
                 <p class="produtos-individual-img-txt">
                     <span>Peso Líquido:80g.</span><br />
                     <span>Validade: VIDE LOTE</span>
@@ -111,7 +136,7 @@
     <footer class="footer">
         <div class="container footer-main">
             <figure class="footer-logo">
-                <img src="img/logo.png">
+                <img src="../img/logo.png">
             </figure>
             <address class="footer-address">
                 <h4 class="footer-title">Contato:</h4>

@@ -3,6 +3,9 @@
         Template Name: Produto Temperos Completos
     */
 
+    $GLOBALS['h1'] = "Tempero Completo";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
 ?>
 <main>

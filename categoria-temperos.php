@@ -3,6 +3,9 @@
         Template Name: Categoria Temperos
     */
 
+    $GLOBALS['h1'] = "Temperos";
+    $GLOBALS['isProduto'] = false;
+
     get_header('about');
 ?>
     <main>
@@ -11,7 +14,7 @@
             <li class="produtos-list-item">
                 <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-tempero-alho-sal') ?>">
                     <figure class="produtos-list-item-container">
-                        <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/Tempero-alho-e-sal-500g.png') ?>" />
+                        <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/Tempero alho e sal 500g.png') ?>" />
                         <figcaption>
                             <p><strong>Tempero Alho e Sal 500g</strong></p>
                             <p>7898955459683</p>
@@ -22,7 +25,7 @@
             <li class="produtos-list-item">
                 <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-pasta-de-alho') ?>">
                     <figure class="produtos-list-item-container">
-                        <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/Pasta-de-alho-500g.png') ?>" />
+                        <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/Pasta de alho 500g.png') ?>" />
                         <figcaption>
                             <p><strong>Tempero Pasta de Alho 500g</strong></p>
                             <p>7898955459676</p>
@@ -33,7 +36,7 @@
             <li class="produtos-list-item">
                 <a class="produtos-list-item-link" href="<?php echo relativeUrl('produto-temperos-completos') ?>">
                     <figure class="produtos-list-item-container">
-                        <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/Tempero-completo-500g.png') ?>" />
+                        <img class="produtos-list-item-img" src="<?php echo theme_image('produtos/Tempero completo 500g.png') ?>" />
                         <figcaption>
                             <p><strong>Tempero Completo 500g</strong></p>
                             <p>7898955459690</p>

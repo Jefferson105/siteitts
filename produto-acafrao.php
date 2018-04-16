@@ -3,10 +3,15 @@
         Template Name: Produto Acafrao
     */
 
+    $GLOBALS['h1'] = "Açafrão";
+    $GLOBALS['isProduto'] = true;
+
     get_header('about');
+
+    $produto = get_field('produto_nome');
 ?>
     <main>
-        <p class="produtos-breadcrumb"><span>produtos</span> | <span>Condimentos</span> | <span>Açafrão Inttenso foods</span></p>
+        <p class="produtos-breadcrumb"><span>produtos</span> | <span>Condimentos</span> | <span><?php echo $produto; ?> Inttenso foods</span></p>
         <section class="produtos-individual">
             <figure class="produtos-individual-img">
                 <img class="produtos-individual-img-prod" src="<?php echo theme_image('produtos/condimento_acafrao.png') ?>" />
